@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="cogrob_tut_controller" pkg="cogrob_tut_planning" type="planning_node.py" output="screen"/>
+
+</launch>

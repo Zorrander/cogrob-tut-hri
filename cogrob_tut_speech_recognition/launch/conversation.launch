@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="speech_recognition" pkg="cogrob_tut_speech_recognition" type="speech_recognition_node.py" output="screen"/>
+  <node name="speech_to_text_input" pkg="cogrob_tut_speech_recognition" type="speech_to_text_node.py" output="screen"/>
+
+</launch>

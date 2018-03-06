@@ -1,0 +1,23 @@
+<launch>
+
+  <!-- send ROBOT parameters to parameter server -->
+  <rosparam command="load" ns="/script_server/base" file="$(find cogrob_tut_bringup)/config/base_configurations.yaml"/>
+
+  <!-- The robot needs to be already initialized for this node to start properly
+
+  <include file="$(find cob_navigation_global)/launch/2dnav_ros_dwa.launch" />-->
+  <!-- ====================================================================================== -->
+
+ <!-- Start all nodes necessary for using speech recognition. -->
+ <include file="$(find cogrob_tut_speech_recognition)/launch/conversation.launch" />
+
+  <!-- Start all nodes necessary for speech synthesis. -->
+  <include file="$(find cob_speech_synthesizer)/launch/speech_synthesizer.launch" />
+
+  <!-- Start all nodes necessary for knowledge processing. -->
+  <include file="$(find cogrob_tut_reasoning)/launch/reasoning.launch" />
+
+  <!-- Start all nodes necessary for task planning. -->
+  <include file="$(find cogrob_tut_planning)/launch/planning.launch"/>
+
+</launch>

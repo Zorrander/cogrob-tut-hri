@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://knowrob.org/kb/knowrob_common.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/knowrob_common.owl"/>
+    <uri id="Imports Wizard Entry" name="http://knowrob.org/kb/openni_human1.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_srdl/owl/openni_human2.owl"/>
+    <uri id="Imports Wizard Entry" name="http://knowrob.org/kb/test_knowrob_objects.owl#" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_objects/owl/test_knowrob_objects.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_srdl/owl/srdl2-cap.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_srdl/owl/srdl2-cap.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_srdl/owl/srdl2.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_srdl/owl/srdl2.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_srdl/owl/srdl2-comp.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_srdl/owl/srdl2-comp.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_common/owl/knowrob_queries.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/knowrob_queries.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_common/owl/knowrob_communication.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/knowrob_communication.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_common/owl/knowrob_common.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/knowrob_common.owl"/>
+    <uri id="User Entered Import Resolution" name="package://knowrob_common/owl/knowrob.owl" uri="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/knowrob.owl"/>
+    <group id="Folder Repository, directory=file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_srdl/owl/, recursive=false, Auto-Update=true, version=2" prefer="public" xml:base="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_srdl/owl/">
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/Boxy.owl" uri="Boxy_08_2016.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/Boxy.owl" uri="Boxy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/BoxyWithRoller.owl" uri="BoxyWithRoller.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/PR2.owl" uri="sim-hand.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/PR2.owl" uri="xsens-human.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/PR2.owl" uri="PR2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/Saphari.owl" uri="saphari_robot.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/TUMRosie.owl" uri="TUMRosie.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/amigo.owl" uri="amigo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/ari.owl" uri="pioneer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/baxter.owl" uri="baxter.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/forth_human.owl" uri="forth_human.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/openni_human1.owl" uri="openni_human2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/openni_human1.owl" uri="openni_human1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/pico.owl" uri="pico.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/srdl2-action.owl" uri="srdl2-action.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/srdl2-cap.owl" uri="srdl2-cap.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://knowrob.org/kb/srdl2-comp.owl" uri="srdl2-comp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/srdl2.owl" uri="srdl2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="duplicate:http://knowrob.org/kb/srdl2.owl" uri="srdl2-dl.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1499949757054" name="http://www.roboearth.org/kb/pera_left.owl" uri="pera_left.owl"/>
+    </group>
+    <group id="Folder Repository, directory=file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_objects/owl/, recursive=false, Auto-Update=true, version=2" prefer="public" xml:base="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_objects/owl/">
+        <uri id="Automatically generated entry, Timestamp=1495558456000" name="http://knowrob.org/kb/knowrob_objects.owl" uri="knowrob_objects.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1495558456000" name="http://knowrob.org/kb/knowrob_rel_coord_test.owl" uri="knowrob_rel_coord_test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1495558456000" name="http://knowrob.org/kb/test_knowrob_objects.owl" uri="test_knowrob_objects.owl"/>
+    </group>
+    <group id="Folder Repository, directory=file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/, recursive=false, Auto-Update=true, version=2" prefer="public" xml:base="file:/home/angleraud/workspace/ros_kb/src/knowrob/knowrob_common/owl/">
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://data.qudt.org/qudt/owl/1.0.0/qudt.owl" uri="qudt.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/computable.owl" uri="computable.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="duplicate:http://knowrob.org/kb/knowrob.owl" uri="knowrob.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="duplicate:http://knowrob.org/kb/knowrob.owl" uri="knowrob_common.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_communication.owl" uri="knowrob_communication.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_math.owl" uri="knowrob_math.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_owl_test.owl" uri="knowrob_owl_test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_owlapi_test.owl" uri="knowrob_owlapi_test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_queries.owl" uri="knowrob_queries.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_temporal.owl" uri="knowrob_temporal.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_temporal_test.owl" uri="knowrob_temporal_test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/knowrob_units.owl" uri="knowrob_units.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://knowrob.org/kb/temporal-part-example.owl" uri="temporal-part-example.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://qudt.org/1.1/vocab/dimension" uri="dimension.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://qudt.org/1.1/vocab/dimensionalunit" uri="dimensionalunit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://qudt.org/1.1/vocab/quantity" uri="quantity.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://qudt.org/vocab/unit" uri="unit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1500291239328" name="http://www.w3.org/2002/07/owl" uri="owl.owl"/>
+    </group>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1518790255136" name="http://aalto.intelligent.robotics/kb/actions.owl" uri="actions.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1518790255136" name="http://aalto.intelligent.robotics/kb/cob4-2.owl" uri="cob4-2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1518790255136" name="http://aalto.intelligent.robotics/kb/humans.owl" uri="humans.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1518790255136" name="http://cob.gazebo.world/kb/ipa-apartment.owl" uri="ipa-apartment.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1518790255136" name="http://www.semanticweb.org/angleraud/ontologies/2017/6/untitled-ontology-65" uri="targets.owl"/>
+    </group>
+</catalog>

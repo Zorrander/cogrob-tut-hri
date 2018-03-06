@@ -1,0 +1,25 @@
+<package format="2">
+  <name>cogrob_tut_msgs</name>
+  <version>0.1.0</version>
+  <description>Common message definitions.</description>
+  <maintainer email="alexandre.angleraud@tut.fi">Alexandre Angleraud</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://Zorrander.github.io/cogrob_tut_hri</url>
+  <url type="repository">https://github.com/Zorrander/cogrob_tut_msgs</url>
+  <author>Cognitive Robotics TUT</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>actionlib_msgs</build_depend>
+  <build_export_depend>actionlib_msgs</build_export_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_generation</build_export_depend>
+
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+</package>
