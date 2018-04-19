@@ -10,11 +10,6 @@ Example
 .. figure:: _static/bulle.png
     :align: center
     :figclass: align-center
-    :width: 48%
-
-.. figure:: _static/bulle.png
-    :align: center
-    :figclass: align-center
-    :width: 48%
+    :width: 50%
 
     Example of a conversation.
