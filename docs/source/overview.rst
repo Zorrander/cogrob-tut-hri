@@ -24,8 +24,7 @@ The following use cases are considered for now :
 
 The main components are:
 
-* ``cogrob_tut_speech_recognition``. It makes a bridge between the user and the reasoning
-components of the robot. Its features are :
+* ``cogrob_tut_speech_recognition`` It makes a bridge between the user and the reasoning components of the robot. Its features are :
 
         * Speech to text conversion through Google's engine.
 
@@ -33,8 +32,7 @@ components of the robot. Its features are :
 
         * Maintains a state machine updated after each perception which defines the different stages of the conversation.
 
-* ``cogrob_tut_reasoning``. It uses a Prolog based reasoning to analyze the tokens it received from the
-speech recognition module. It is composed of :
+* ``cogrob_tut_reasoning`` It uses a Prolog based reasoning to analyze the tokens it received from the speech recognition module. It is composed of :
 
         * **Knowledge base** containing information describing the environment, the robot, the different actions and targets. This information is stored in ontologies.
 
@@ -44,4 +42,4 @@ speech recognition module. It is composed of :
 
         * **Kernel** and main entity, its only role is to distribute the tasks to the other components and sends the output of the reasoning layer.
 
-        * **Data model** mirrors how the information is stored in the knowledge base. In other words it acts as a template that is used to shape the information from the code to the knowledge base or process it from the knowledge base to the code. 
+        * **Data model** mirrors how the information is stored in the knowledge base. In other words it acts as a template that is used to shape the information from the code to the knowledge base or process it from the knowledge base to the code.
