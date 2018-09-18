@@ -1,9 +1,0 @@
-#goal definition
-string symbol
-string category
----
-#result definition
-string anchoring_answer
----
-#feedback
-std_msgs/Empty message

@@ -1,6 +1,0 @@
-<launch>
-
-  <include file="$(find cogrob_tut_reasoning)/launch/json.launch" />
-  <node name="reasoning" pkg="cogrob_tut_reasoning" type="reasoning_node.py" output="screen"/>
-
-</launch>

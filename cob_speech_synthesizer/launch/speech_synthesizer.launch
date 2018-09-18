@@ -1,6 +1,0 @@
-<launch>
-
-  <param name="sound/mode" value="cepstral"/>
-  <node name="speech_synthesizer" pkg="cob_speech_synthesizer" type="speech_synthesizer_node.py" output="screen"/>
-
-</launch>
