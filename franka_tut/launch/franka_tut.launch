@@ -1,0 +1,18 @@
+<!--fci-ip : 130.230.37.115 -->
+<launch>
+  <arg name="mode"/>
+
+  <include file="$(find franka_tut_actuator_control)/launch/actuator_node.launch" />
+  <include file="$(find franka_tut_perception)/launch/sensor_node.launch" />
+  <include file="$(find franka_tut_nlp)/launch/conversation.launch" />
+
+  <include file="$(find franka_tut_reasoning)/launch/reasoning_node.launch">
+    <arg name="mode" value="$(arg mode)" />
+  </include>
+
+
+  <include file="$(find rqt_franka)/launch/rqt_franka.launch" />
+
+  <rosparam file="$(find franka_tut)/config/constants.yaml" command="load" ns="/manifest_constants" />
+
+</launch>

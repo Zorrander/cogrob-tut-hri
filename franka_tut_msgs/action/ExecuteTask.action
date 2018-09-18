@@ -1,0 +1,9 @@
+#goal definition
+string order
+---
+#result definition
+string result
+---
+#feedback
+Action robot_feedback
+Action human_feedback

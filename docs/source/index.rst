@@ -23,6 +23,4 @@ The two main components of the project are :
    requirements
    installation
    getting_started
-   speech_recognition
-   reasoning
-   troubleshooting
+   publications

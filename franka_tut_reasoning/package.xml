@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>franka_tut_reasoning</name>
+  <version>0.1.0</version>
+  <description>Ontologies and query libraries</description>
+
+  <maintainer email="alexandre.angleraud@tut.fi">Alexandre Angleraud</maintainer>
+  <license>BSD</license>
+  <url type="website">http://human-robot-interactive-learning.readthedocs.io</url>
+  <url type="repository">https://github.com/Zorrander/franka_tut_reasoning</url>
+  <author>Cognitive Robotics TUT</author>
+
+  <depend>rospy</depend> -->
+
+  <exec_depend>rdflib</exec_depend> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>python-catkin-pkg</build_depend>
+  <test_depend>rosunit</test_depend>
+
+</package>

@@ -1,0 +1,9 @@
+<launch>
+  <arg name="mode"/>
+
+  <node name="reasoning_node" pkg="franka_tut_reasoning" type="reasoning_node.py" output="screen">
+      <param name="mode" value="$(arg mode)" type="string"/>
+  </node>
+
+  <node name="record_motion_client" pkg="franka_tut_reasoning" type="record_motion_client.py" output="screen"/>
+</launch>

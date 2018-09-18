@@ -1,0 +1,8 @@
+#goal definition
+string name
+---
+#result definition
+std_msgs/Empty end_signal
+---
+#feedback
+geometry_msgs/Pose current_pose

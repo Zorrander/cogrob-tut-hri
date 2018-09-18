@@ -1,0 +1,3 @@
+<launch>
+  <node name="gripper_control" pkg="franka_tut_actuator_control" type="actuator_node.py" output="screen" />
+</launch>

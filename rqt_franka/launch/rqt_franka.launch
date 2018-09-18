@@ -1,0 +1,3 @@
+<launch>
+  <node name="rqt_franka" pkg="rqt_franka" type="rqt_franka" output="screen" />
+</launch>

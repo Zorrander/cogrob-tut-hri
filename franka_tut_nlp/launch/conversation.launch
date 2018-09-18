@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="speech_recognition" pkg="franka_tut_nlp" type="speech_recognition_node.py" output="screen"/>
+  <node name="speech_to_text_input" pkg="franka_tut_nlp" type="speech_to_text_node.py" output="screen"/>
+  <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py" output="screen"/>
+
+
+</launch>

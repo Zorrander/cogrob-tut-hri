@@ -1,0 +1,9 @@
+# Agents
+ROBOT: 0
+HUMAN: 1
+
+# Action status
+DONE: 0
+NEW: 1
+DOING: 2
+ERROR: 3

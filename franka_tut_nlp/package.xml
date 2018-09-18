@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>franka_tut_nlp</name>
+  <version>0.1.0</version>
+  <description>The franka_tut_nlp package</description>
+
+  <maintainer email="alexandre.angleraud@tut.fi">Alexandre Angleraud</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://human-robot-interactive-learning.readthedocs.io</url>
+  <url type="repository">https://github.com/Zorrander/franka_tut_nlp</url>
+  
+  <author>Cognitive Robotics TUT</author>
+
+  <depend>rospy</depend> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
