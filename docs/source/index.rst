@@ -3,24 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Human-Robot Interactive Learning documentation
-============================================================
+Awareness in Human-Robot Interaction for Collaborative Tasks documentation
+==========================================================================
 
-The Human-Robot Interactive Learning project is composed of several ROS packages that can be found on
+The Awareness in Human-Robot Interaction for Collaborative Tasks project is composed of several ROS packages that can be found on
 `GitHub <https://github.com/Zorrander/cogrob-tut-hri>`_. We welcome any suggestion for improvements.
 
-The two main components of the project are :
+The project is composed of :
 
- * ``cogrob_tut_speech_recognition`` in charge of delivering meaningful tokens to the reasoning module from natural language inputs provided by the user.
+ * A knowledge base server storing information about the environment and different skills that can performed by a robot. It also provides
+ an interface to teach new knowledge.
 
- * ``cogrob_tut_reasoning``, analyzing the tokens of a spoken request to determine if it is able to perform it or not.
+ * A reasoning system to be deployed on a robot allowing for reasoning and collaborative task planning. For experiments we use the
+ `Panda arm <https://www.franka.de/>`_ from Frakna Emika.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    overview
-   requirements
    installation
-   getting_started
+   documentation
+   API
+   ontologies
    publications

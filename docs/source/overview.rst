@@ -1,18 +1,47 @@
 Overview
 ========
 
-.. figure:: _static/system.png
+.. figure:: _static/system2.png
     :align: center
     :figclass: align-center
 
-    Schematic overview of the components.
+    General organization of the collaborative platform. Skill description occurs off-line and independently of the robot used. Operative knowledge is then demonstrated on-line. Finally the skills can be activated by natural language commands or through the GUI.
+
+
+The knowledge base server
+-------------------------
+
+.. figure:: _static/web_interface.png
+    :align: center
+    :figclass: align-center
+
+    Off-line web app allowing to describe new skills to the robot. The first step consists in naming the skill. The second step defines which command could activate it. Finally the different physical abilities involved in performing the skill can be specified. Our poll of predefined physical abilities is for now composed of picking, placing, and pouring.
+
+The reasonning system
+---------------------
+
+.. figure:: _static/execution_architecture.png
+    :align: center
+    :figclass: align-center
+
+    Our 3 layers approach allowing the robot to sense, think and act. The first layer listens for audio input from the environment. The second layer reasons about available skills and establish action plans. Finally the action layer handles the physical abilities implementations
+
+Solving amgiguities
+^^^^^^^^^^^^^^^^^^^
+
+.. figure:: _static/bulle.png
+    :align: center
+    :figclass: align-center
+
+    Grounding of a new symbol (spaghetti) in the knowledge base using human-robot interaction through natural language.
 
 The system presented here allows a human to make simple queries to a robot. If they are not understood the robot asks
 for explanations about the unknown symbol(s).
 
 The following use cases are considered for now :
 
- * Action is not understood. It needs to be defined with a sequence of actions already known.
+ * Action is not understood. It needs to be defined with a sequence of actions already known. It can also be related to a skill already know through
+ the command that would activate it.
 
  * Target is not understood. It can be defined either as a sub element or as an equivalent of a concept already known.
 
@@ -21,25 +50,11 @@ The following use cases are considered for now :
    The system is highly dependent on the quality of the inputs provided to the robot. It is thus important that you make sure
    whether your microphone is good enough or not.
 
+Collaborative task planning
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The main components are:
+.. figure:: _static/plan1.png
+    :align: center
+    :figclass: align-center
 
-* ``cogrob_tut_speech_recognition`` It makes a bridge between the user and the reasoning components of the robot. Its features are :
-
-        * Speech to text conversion through Google's engine.
-
-        * Processes the sentence by isolating each word of the sentence and ignoring the irrelevant ones.
-
-        * Maintains a state machine updated after each perception which defines the different stages of the conversation.
-
-* ``cogrob_tut_reasoning`` It uses a Prolog based reasoning to analyze the tokens it received from the speech recognition module. It is composed of :
-
-        * **Knowledge base** containing information describing the environment, the robot, the different actions and targets. This information is stored in ontologies.
-
-        * **Prolog libraries** linking the data and the rest of the program and hence called before each read or write operation in the ontologies.
-
-        * **Grounding modules** that get activated when a teaching state is reached in the input layer.
-
-        * **Kernel** and main entity, its only role is to distribute the tasks to the other components and sends the output of the reasoning layer.
-
-        * **Data model** mirrors how the information is stored in the knowledge base. In other words it acts as a template that is used to shape the information from the code to the knowledge base or process it from the knowledge base to the code.
+    Plan made by the robot. In red is what will be performed by the robot and in blue what the human.

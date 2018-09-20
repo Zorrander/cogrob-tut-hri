@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Human-Robot Interactive Learning'
+project = u'Awareness in Human-Robot Interaction for Collaborative Tasks'
 copyright = u'2018, Cognitive Robotics TUT'
 author = u'Cognitive Robotics TUT'
 
