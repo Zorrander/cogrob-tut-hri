@@ -1,4 +1,4 @@
-.. _demo:
+.. _demonstration:
 
 Demonstrating a new skills
 ==========================
