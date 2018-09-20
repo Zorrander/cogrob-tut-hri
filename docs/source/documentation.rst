@@ -1,12 +1,12 @@
 Project documentation
 =====================
 
-- :Getting started:`start`.
+- Getting started :ref:`start`.
 
-- :Teaching a new skill:`teaching`.
+- Teaching new knowledge :ref:`teaching`.
 
-- :Demonstration of a new skill:`demo`.
+- Demonstrating a skill ref:`demo`.
 
-- :Interacting with the robot:`interaction`.
+- Interacting with the robot :ref:`interaction`.
 
-- :Performing collaborative tasks:`performing`.
+- Collaborative task planning :ref:`performing`.
