@@ -1,3 +1,0 @@
-extensions = [
-    'sphinx.ext.intersphinx'
-]
