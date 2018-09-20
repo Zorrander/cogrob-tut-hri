@@ -35,20 +35,17 @@ Solving amgiguities
 
     Grounding of a new symbol (spaghetti) in the knowledge base using human-robot interaction through natural language.
 
-The system presented here allows a human to make simple queries to a robot. If they are not understood the robot asks
-for explanations about the unknown symbol(s).
+The system presented here allows a human to make simple queries to a robot. If they are not understood the robot asks for explanations about the unknown symbol(s).
 
 The following use cases are considered for now :
 
- * Action is not understood. It needs to be defined with a sequence of actions already known. It can also be related to a skill already know through
- the command that would activate it.
+ * Action is not understood. It needs to be defined with a sequence of actions already known. It can also be related to a skill already know through the command that would activate it.
 
  * Target is not understood. It can be defined either as a sub element or as an equivalent of a concept already known.
 
 .. important::
 
-   The system is highly dependent on the quality of the inputs provided to the robot. It is thus important that you make sure
-   whether your microphone is good enough or not.
+   The system is highly dependent on the quality of the inputs provided to the robot. It is thus important that you make sure whether your microphone is good enough or not.
 
 Collaborative task planning
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
