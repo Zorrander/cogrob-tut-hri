@@ -16,6 +16,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+
 import os
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','franka_tut_reasoning'))
@@ -26,7 +27,7 @@ def run_apidoc(_):
     cur_dir = os.path.abspath(os.path.dirname(__file__))
     sys.path.append(parentFolder)
     # change "backend" to your module name
-    module = os.path.join(parentFolder,'franka_tut')
+    module = os.path.join(parentFolder,'franka_tut_reasoning')
     output_path = os.path.join(cur_dir, 'api')
     main(['-e','-f','-o', output_path, module])
 
@@ -43,8 +44,7 @@ def setup(app):
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc','sphinx.ext.napoleon',
-    'sphinx.ext.intersphinx']
+extensions = ['sphinx.ext.autodoc','sphinx.ext.napoleon', 'sphinx.ext.intersphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
