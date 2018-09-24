@@ -24,6 +24,7 @@ import sys
 # -- General configuration ------------------------------------------------
 
 def run_apidoc(_):
+    from sphinx.apidoc import main
     modules = ['../../franka_tut_reasoning',
                '../../franka_tut_nlp']
     for module in modules:
