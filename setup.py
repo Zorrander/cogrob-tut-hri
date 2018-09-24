@@ -11,6 +11,7 @@ setup(
     maintainer='Alexandre Angleraud',
     maintainer_email='alexandre.angleraud@tut.fi',
     packages=['franka_tut_reasoning'],
+    package_dir={'': 'src'},
     license='LICENSE',
     description= descr,
     long_description=open('README.md').read(),
