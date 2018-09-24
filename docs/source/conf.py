@@ -80,7 +80,7 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
-breathe_projects = { "franka_tut_reasoning": "/home/anglerau/GitHub/cogrob-tut-hri/franka_tut_reasoning/doc" }
+breathe_projects = { "franka_tut_reasoning": "/home/anglerau/GitHub/cogrob-tut-hri/franka_tut_reasoning/doc/html" }
 breathe_default_project = "franka_tut_reasoning"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
