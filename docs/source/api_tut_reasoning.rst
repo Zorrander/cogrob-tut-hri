@@ -1,7 +1,7 @@
 .. _api_tut_reasoning:
 
-Plannera
-====================
+Planners
+========
 
-.. automodule:: franka_tut_reasoning.planner.InteractivePlanner
+.. automodule:: planner.Planner
     :members:
