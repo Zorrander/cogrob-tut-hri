@@ -18,7 +18,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'),'../..','franka_tut_reasoning')
+sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','franka_tut_reasoning'))
 
 def run_apidoc(_):
     from sphinx.apidoc import main
@@ -44,7 +44,7 @@ def setup(app):
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc','sphinx.ext.napoleon',
-    'sphinx.ext.intersphinx', 'breathe']
+    'sphinx.ext.intersphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

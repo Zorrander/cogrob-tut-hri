@@ -1,7 +1,0 @@
-name: cogrob-tut-hri
-
-channels:
-  - conda-forge
-
-dependencies:
-  - breathe
