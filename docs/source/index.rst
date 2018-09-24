@@ -24,3 +24,7 @@ The project is composed of :
    API
    ontologies
    publications
+
+
+.. automodule:: franka_tut_reasoning.planner.Planner
+    :members:
