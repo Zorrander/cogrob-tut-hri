@@ -16,9 +16,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-#import os
-#import sys
-#sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- General configuration ------------------------------------------------
@@ -80,7 +80,7 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
-breathe_projects = { "franka_tut": "/home/anglerau/GitHub/cogrob-tut-hri/docs/xml" }
+breathe_projects = { "franka_tut": "./xml" }
 breathe_default_project = "franka_tut"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
