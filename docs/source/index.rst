@@ -25,7 +25,4 @@ The project is composed of :
    ontologies
    publications
 
-.. automodule:: franka_tut_reasoning.ontology_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. include:: franka_tut_reasoning.rst

@@ -28,12 +28,9 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 def run_apidoc(_):
     from sphinx.apidoc import main
-    modules = [,
-               '../../franka_tut_nlp']
-    for module in modules:
-        cur_dir = os.path.abspath(os.path.dirname(__file__))
-        module = os.path.join(cur_dir, '../../franka_tut_reasoning')
-        main(['-e', '-o', cur_dir, module, '--force'])
+    cur_dir = os.path.abspath(os.path.dirname(__file__))
+    module = os.path.join(cur_dir, '../../franka_tut_reasoning')
+    main(['-e', '-o', cur_dir, module, '--force'])
 
 def setup(app):
 	app.connect('builder-inited', run_apidoc)
