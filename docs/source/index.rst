@@ -21,6 +21,6 @@ The project is composed of :
    overview
    installation
    documentation
-   API
+   api/franka_tut
    ontologies
    publications
