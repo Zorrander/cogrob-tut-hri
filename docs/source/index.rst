@@ -21,8 +21,6 @@ The project is composed of :
    overview
    installation
    documentation
-   API
+   franka_tut_reasoning
    ontologies
    publications
-
-.. include:: franka_tut_reasoning.rst
