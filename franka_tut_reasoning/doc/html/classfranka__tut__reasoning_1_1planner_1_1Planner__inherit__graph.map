@@ -1,5 +1,0 @@
-<map id="franka_tut_reasoning.planner.Planner" name="franka_tut_reasoning.planner.Planner">
-<area shape="rect" id="node3" href="$classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner.html" title="franka_tut_reasoning.planner.\lAutomatedPlanner" alt="" coords="352,5,545,47"/>
-<area shape="rect" id="node4" href="$classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner.html" title="franka_tut_reasoning.planner.\lCollaborativePlanner" alt="" coords="352,71,545,112"/>
-<area shape="rect" id="node5" href="$classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner.html" title="franka_tut_reasoning.planner.\lInteractivePlanner" alt="" coords="352,136,545,177"/>
-</map>

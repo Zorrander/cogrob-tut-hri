@@ -15,7 +15,7 @@ The project is composed of :
  * A reasoning system to be deployed on a robot allowing for reasoning and collaborative task planning. For experiments we use the `Panda arm <https://www.franka.de/>`_ from Frakna Emika.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
    overview

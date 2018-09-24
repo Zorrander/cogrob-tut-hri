@@ -1,8 +1,0 @@
-<map id="franka_tut_reasoning.errors.Error" name="franka_tut_reasoning.errors.Error">
-<area shape="rect" id="node3" href="$classfranka__tut__reasoning_1_1errors_1_1Grasping__Error.html" title="franka_tut_reasoning.errors.\lGrasping_Error" alt="" coords="365,5,549,47"/>
-<area shape="rect" id="node4" href="$classfranka__tut__reasoning_1_1errors_1_1LocationUnknown__Error.html" title="franka_tut_reasoning.errors.\lLocationUnknown_Error" alt="" coords="365,71,549,112"/>
-<area shape="rect" id="node5" href="$classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error.html" title="franka_tut_reasoning.errors.\lRequestSemantic_Error" alt="" coords="365,136,549,177"/>
-<area shape="rect" id="node6" href="$classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error.html" title="franka_tut_reasoning.errors.\lRequestSyntax_Error" alt="" coords="365,201,549,243"/>
-<area shape="rect" id="node7" href="$classfranka__tut__reasoning_1_1errors_1_1TargetUnknown__Error.html" title="franka_tut_reasoning.errors.\lTargetUnknown_Error" alt="" coords="365,267,549,308"/>
-<area shape="rect" id="node8" href="$classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error.html" title="franka_tut_reasoning.errors.\lWidthUnknown_Error" alt="" coords="365,332,549,373"/>
-</map>
