@@ -17,11 +17,8 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
-import os
-import sys
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src/franka_tut_reasoning'))
+#import os
+#import sys
 
 # -- General configuration ------------------------------------------------
 
