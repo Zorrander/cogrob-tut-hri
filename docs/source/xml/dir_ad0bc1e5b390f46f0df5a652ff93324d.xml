@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_ad0bc1e5b390f46f0df5a652ff93324d" kind="dir">
+    <compoundname>franka_tut_nlp/src</compoundname>
+    <innerdir refid="dir_97bc5452a9576e7b0186ceb5c2fe44c1">franka_tut_nlp/src/franka_tut_nlp</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="franka_tut_nlp/src/"/>
+  </compounddef>
+</doxygen>

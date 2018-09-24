@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::grounding_action_server::GroundingActionServer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a551599a4d5ce1c1baa0d6f6d4ab00741" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::_feedback</definition>
+        <argsstring></argsstring>
+        <name>_feedback</name>
+        <initializer>= AddInfoConversationFeedback()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="9" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a79f340646871dd6132983ff45f49e4cc" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::_result</definition>
+        <argsstring></argsstring>
+        <name>_result</name>
+        <initializer>= AddInfoConversationResult()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="10" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1afe7560d73f1cc7d893845c5135209892" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::kb_interface</definition>
+        <argsstring></argsstring>
+        <name>kb_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="13" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a75abe83266fe44927302f28e025c77f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="15" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad711e6e52d24dc1e98b0563a586d7f5d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::symbol</definition>
+        <argsstring></argsstring>
+        <name>symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="25" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad6471ec65b1b53f5844f490507911d66" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::server_type</definition>
+        <argsstring></argsstring>
+        <name>server_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="26" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a141b8dde28c62dd9fb432d1cdda98c59" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::_action_name</definition>
+        <argsstring></argsstring>
+        <name>_action_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="14" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a1747825fe37ec9f38a03a3f1cc37d3ae" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.grounding_action_server.GroundingActionServer::_as</definition>
+        <argsstring></argsstring>
+        <name>_as</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="16" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a72969a0c76fc2f705071a40c1139ea78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.grounding_action_server.GroundingActionServer.__init__</definition>
+        <argsstring>(self, name, kb_interface)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>name</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>kb_interface</type>
+          <defname>kb_interface</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="12" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="12" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a6da30a58d5ce86218a5b6e3bf73f97e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.grounding_action_server.GroundingActionServer.goal_cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>goal_cb</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="22" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1af103a5b2d80778a528017ea82e21ad03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.grounding_action_server.GroundingActionServer.preempt_cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>preempt_cb</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="29" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1abc6767f71867142cc07dcf2e1a3e8e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.grounding_action_server.GroundingActionServer.relate_skills</definition>
+        <argsstring>(self, msg)</argsstring>
+        <name>relate_skills</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>msg</type>
+          <defname>msg</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="33" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="33" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad3946728778e3fb90fe4d5cb19514e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.grounding_action_server.GroundingActionServer.new_triple_cb</definition>
+        <argsstring>(self, msg)</argsstring>
+        <name>new_triple_cb</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>msg</type>
+          <defname>msg</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>receives entries from human</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="52" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="52" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a6fc787540ec8f9af37e00c8483a62e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.grounding_action_server.GroundingActionServer.grounding_end_cb</definition>
+        <argsstring>(self, msg)</argsstring>
+        <name>grounding_end_cb</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>msg</type>
+          <defname>msg</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="70" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="70" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="132">
+        <label>franka_tut_reasoning.grounding_action_server.GroundingActionServer</label>
+        <link refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="134">
+        <label>franka_tut_reasoning.grounding_action_server.GroundingActionServer</label>
+        <link refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" line="8" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/grounding_action_server.py" bodystart="8" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a72969a0c76fc2f705071a40c1139ea78" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a141b8dde28c62dd9fb432d1cdda98c59" prot="private" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>_action_name</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a1747825fe37ec9f38a03a3f1cc37d3ae" prot="private" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>_as</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a551599a4d5ce1c1baa0d6f6d4ab00741" prot="private" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>_feedback</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a79f340646871dd6132983ff45f49e4cc" prot="private" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>_result</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a6da30a58d5ce86218a5b6e3bf73f97e8" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>goal_cb</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a6fc787540ec8f9af37e00c8483a62e54" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>grounding_end_cb</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a75abe83266fe44927302f28e025c77f9" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>items</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1afe7560d73f1cc7d893845c5135209892" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>kb_interface</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad3946728778e3fb90fe4d5cb19514e07" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>new_triple_cb</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1af103a5b2d80778a528017ea82e21ad03" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>preempt_cb</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1abc6767f71867142cc07dcf2e1a3e8e11" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>relate_skills</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad6471ec65b1b53f5844f490507911d66" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>server_type</name></member>
+      <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad711e6e52d24dc1e98b0563a586d7f5d" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::grounding_action_server::GroundingActionServer</scope><name>symbol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

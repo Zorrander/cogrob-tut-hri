@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::ontology_manager::TaskSemanticManager</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager" prot="public" virt="non-virtual">franka_tut_reasoning.ontology_manager.RdfManager</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a19d2e53958a5b452c3e65a4fab54e015" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.ontology_manager.TaskSemanticManager::available_tasks</definition>
+        <argsstring></argsstring>
+        <name>available_tasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="257" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1ab3450225aba0eefe8989a74c8f37e0af" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.ontology_manager.TaskSemanticManager::current_context</definition>
+        <argsstring></argsstring>
+        <name>current_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="258" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a09d93b4fc4de8c76e785e3831a2c6d0c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.ontology_manager.TaskSemanticManager::max_width_gripper</definition>
+        <argsstring></argsstring>
+        <name>max_width_gripper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="259" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1acbaa705ea4bd35fcff8a8c7c431a1f84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.ontology_manager.TaskSemanticManager::dictionary_preconditions</definition>
+        <argsstring></argsstring>
+        <name>dictionary_preconditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="260" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a4e992b87f1acbde8c268662b736825ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="255" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="255" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a06d721d8d44cbe92a92dd12bea7483e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.check_syntax</definition>
+        <argsstring>(self, action, target)</argsstring>
+        <name>check_syntax</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>action</type>
+          <defname>action</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Match the request with the skills having a compatible syntax </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="267" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="267" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1af60a3a5d465f0b26822f29f72b17891c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.compare_command</definition>
+        <argsstring>(self, target)</argsstring>
+        <name>compare_command</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="279" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="279" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1afd3be0788468c8d5a7cdfd4a4a3d5624" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.check_semantic</definition>
+        <argsstring>(self, action, target, set_skills)</argsstring>
+        <name>check_semantic</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>action</type>
+          <defname>action</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <param>
+          <type>set_skills</type>
+          <defname>set_skills</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Solves the ambiguities if necessary to retrieve only one skill to trigger in answer of a request </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="293" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="293" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a906ac1f2f8f545a36a00017fd33b2a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.ground_new_symbol</definition>
+        <argsstring>(self, items, server_type, symbol)</argsstring>
+        <name>ground_new_symbol</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>items</type>
+          <defname>items</defname>
+        </param>
+        <param>
+          <type>server_type</type>
+          <defname>server_type</defname>
+        </param>
+        <param>
+          <type>symbol</type>
+          <defname>symbol</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="302" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="302" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a0b8f64f1d83aa10222ace0b5d7bb4e60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.matching_attribute</definition>
+        <argsstring>(self, attribute)</argsstring>
+        <name>matching_attribute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>attribute</type>
+          <defname>attribute</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="309" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="309" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1aa247d7c122e189ea2bc363b66a3b5dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.comply_to_preconditions</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>comply_to_preconditions</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="314" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="314" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1af2fbce6c0bca7a2c8cf15125a984648f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.is_target_reachable</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>is_target_reachable</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks if the target is known and maps it to its location</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="324" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="324" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a943458a837015c8a9d955e253d591351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.is_target_graspable</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>is_target_graspable</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checks if the width of the object is less than max width of the gripper</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="336" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="336" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a3c39028f46350889729ca2def4b8ce44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.is_gripper_operational</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>is_gripper_operational</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="350" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="350" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a0295d948fcbd6298b47b6d219a21e4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.is_rotation_angle_valid</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>is_rotation_angle_valid</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="355" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1abf043e18aedf75cae38d2e78c3ce52b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.procedural_attachment</definition>
+        <argsstring>(self, steps, context)</argsstring>
+        <name>procedural_attachment</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>steps</type>
+          <defname>steps</defname>
+        </param>
+        <param>
+          <type>context</type>
+          <defname>context</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="359" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a494f52265b8e2314f258d01d98830a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.has_constraint</definition>
+        <argsstring>(self, step)</argsstring>
+        <name>has_constraint</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>step</type>
+          <defname>step</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="363" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="363" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a304ab751b0a55f27cb36433f8a17268f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.TaskSemanticManager.retrieve_actions</definition>
+        <argsstring>(self, skill)</argsstring>
+        <name>retrieve_actions</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>skill</type>
+          <defname>skill</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="367" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="367" bodyend="380"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>docstring for TaskSemanticManager.</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="188">
+        <label>franka_tut_reasoning.ontology_manager.TaskSemanticManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>franka_tut_reasoning.ontology_manager.RdfManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>franka_tut_reasoning.ontology_manager.TaskSemanticManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>franka_tut_reasoning.ontology_manager.RdfManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="253" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="253" bodyend="380"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a4e992b87f1acbde8c268662b736825ac" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a19d2e53958a5b452c3e65a4fab54e015" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>available_tasks</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ac35484e3d7fdfa9110b3c79489ccf4ab" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>check_attribute</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1afd3be0788468c8d5a7cdfd4a4a3d5624" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>check_semantic</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a06d721d8d44cbe92a92dd12bea7483e4" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>check_syntax</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1af60a3a5d465f0b26822f29f72b17891c" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>compare_command</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1aa247d7c122e189ea2bc363b66a3b5dfc" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>comply_to_preconditions</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1ab3450225aba0eefe8989a74c8f37e0af" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>current_context</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1acbaa705ea4bd35fcff8a8c7c431a1f84" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>dictionary_preconditions</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a24bdeb83fbb67970fa1f26682bd886bd" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>extract_actions_from_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a95854b5e3ff65c3b114023197d3a2591" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>extract_actions_from_task</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a9ed0faedf6263eb731f56ed9fef8bbc8" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>find_utterances</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2cecfce49ff70470f982a3e48c9eb69b" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_action_preconditions</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a06b49382fd1741b47e3deda8f8e383b0" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_first_task_from_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af9868bd6559a04de022b4fe2b0db06d7" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_following_slot</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ab9934a8a1686a92de36e05cee71cf19e" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_skills</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a1a4bcb074e7559df3f2d923b3e211f94" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_step_info</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a3fd7b10204d8904874cc90ff85959704" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_task_from_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad7410da4e204e56e1ddc7bd5b9094012" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>get_task_steps</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a906ac1f2f8f545a36a00017fd33b2a49" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>ground_new_symbol</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a129b182ab4f0e7815292315860c9f320" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>ground_subclass</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a494f52265b8e2314f258d01d98830a60" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>has_constraint</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a3c39028f46350889729ca2def4b8ce44" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>is_gripper_operational</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a0295d948fcbd6298b47b6d219a21e4a1" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>is_rotation_angle_valid</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a943458a837015c8a9d955e253d591351" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>is_target_graspable</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1af2fbce6c0bca7a2c8cf15125a984648f" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>is_target_reachable</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a0b8f64f1d83aa10222ace0b5d7bb4e60" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>matching_attribute</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a09d93b4fc4de8c76e785e3831a2c6d0c" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>max_width_gripper</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1abf043e18aedf75cae38d2e78c3ce52b9" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>procedural_attachment</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad31576bba8ff03f9935e415a415adc06" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>rec_extract_actions_from_task</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1aa741c167705dd09ebbca3f1d6b773bcf" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>relate_new_skill</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a304ab751b0a55f27cb36433f8a17268f" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>retrieve_actions</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a427acd937631ee2de047016cc1170f48" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>retrieve_description</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2f2342175b9b7f726d485f9c35fa786a" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>retrieve_location</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ae6fd0e384cd117939d75387c46f052fe" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>retrieve_width</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af25ac0a77109135388a8be0d10a6ba5d" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::TaskSemanticManager</scope><name>send_query</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

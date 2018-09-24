@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::planner::CollaborativePlanner</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1planner_1_1Planner" prot="public" virt="non-virtual">franka_tut_reasoning.planner.Planner</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner_1a48e63c9e1712a008f98eee498018216a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.CollaborativePlanner.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="195" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="195" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner_1a422041d7dd8ebd5c5c148af22b2bcd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.CollaborativePlanner.decide_next_move</definition>
+        <argsstring>(self)</argsstring>
+        <name>decide_next_move</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Decides which action to take next</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="198" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="198" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>docstring for CollaborativePlanner.</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>franka_tut_reasoning.planner.CollaborativePlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>object</label>
+      </node>
+      <node id="107">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="109">
+        <label>franka_tut_reasoning.planner.CollaborativePlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>object</label>
+      </node>
+      <node id="110">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="193" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="193" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner_1a48e63c9e1712a008f98eee498018216a" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ae5d955bf66b47a7fba6f3d1d8548a997" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>add_node</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1adadc70934fa45cade0314df2501c0f16" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>attribute_node_to_human</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1acb9b2ee55a917b2538fae741fe283fcb" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>attribute_node_to_robot</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ab7d1d5f8cda04ba8c84f7ae2e0dfc280" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>complete_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner_1a422041d7dd8ebd5c5c148af22b2bcd88" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>decide_next_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a52f7c8342545c86c7a1be22e3d940869" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>draw_graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aca844671ec1007fe590889cee5aafa86" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>generator_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a1ac0bce3cb90b2aea7b9a979ecda4f47" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a3be75e95aa36d4d003275d5a167717fd" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>initialize</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ad2ab734030696ae69b80afbef7fcd947" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::CollaborativePlanner</scope><name>print_graph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

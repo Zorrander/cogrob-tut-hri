@@ -1,7 +1,251 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
-  <compound refid="README_8md" kind="file"><name>README.md</name>
+  <compound refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner" kind="class"><name>franka_tut_reasoning::planner::AutomatedPlanner</name>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1ac3b1017cf95ca817cf3b5cf05dcac3be" kind="variable"><name>current_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a4a14deb98c76fda7dce10c17de29937a" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a61d42beb2ab988b5a92fb16b48f7ed9a" kind="function"><name>initialize</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a39cb35a6089afe9286995c2b2688d74b" kind="function"><name>decide_next_move</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1ac4d0b7a20758fc23c3c7ea455879b6b0" kind="function"><name>find_next_step</name></member>
   </compound>
-  <compound refid="md_README" kind="page"><name>md_README</name>
+  <compound refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner" kind="class"><name>franka_tut_reasoning::planner::CollaborativePlanner</name>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner_1a48e63c9e1712a008f98eee498018216a" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner_1a422041d7dd8ebd5c5c148af22b2bcd88" kind="function"><name>decide_next_move</name></member>
+  </compound>
+  <compound refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation" kind="class"><name>franka_tut_nlp::speech_recognition::Conversation</name>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a31afcc3a6cc3a4605e238f2a8406874d" kind="variable"><name>pub_relate_skill</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a423d2d6243202cff1e75a5f9797dffa5" kind="variable"><name>processed_input_publisher</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a9a9d84bdf0039151f40826415eba4e5c" kind="variable"><name>publisher_ss</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a74acfc910c25df851443ff98a6ce529d" kind="variable"><name>pub_grounding_triple</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1aa541afe92425dd986f76cfc130eaee31" kind="variable"><name>pub_end_grounding</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1ab9755a8f17ff82ec67ae0c1a233291d5" kind="variable"><name>m</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a76bb16361587a090d08bab0fcbb9d5fb" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1adbb193b6f5f93b2bfc7203faa81174d0" kind="function"><name>sr_processing</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a66afb123cbe81823d8257e40b34537f4" kind="function"><name>grounding_active</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a220db20ca27c8730bfcee3d4d3cceaf1" kind="function"><name>grounding_feedback</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a0fc995ca8d54d07df64cf2b3e163f4cf" kind="function"><name>grounding_done</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a8955ed0c309b15a09fc279102bf50ca5" kind="function"><name>symbol_unknown</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a8cbdfd8a43acb063d83e8bb6284b3787" kind="function"><name>preprocess_txt</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a54f0e9f98f9a87544196b83cbd064b90" kind="function"><name>listening_transitions</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a8f31a3b22807dc53b5a9a6702cc39de0" kind="function"><name>listening_to_teaching</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a8c0415fa0509770b6011f2114c9f35ba" kind="function"><name>grounding_action_transitions</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1af1158a2ed3bd6f735915f2acb0729240" kind="function"><name>grounding_target_transitions</name></member>
+    <member refid="classfranka__tut__nlp_1_1speech__recognition_1_1Conversation_1a59cd610990fcc55e1030661303cb3be0" kind="function"><name>busy_transitions</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1Error" kind="class"><name>franka_tut_reasoning::errors::Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1Error_1a7b2da2792da7abb0417f7d3128b8811f" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1Grasping__Error" kind="class"><name>franka_tut_reasoning::errors::Grasping_Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1Grasping__Error_1aceaa6a19f3214c890356bdce7ddeb219" kind="variable"><name>value</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1Grasping__Error_1a8e0d37d13d321c9434d38153d6e59d73" kind="variable"><name>message</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1Grasping__Error_1a47b63d3649650e33770fefbc458fc7bc" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer" kind="class"><name>franka_tut_reasoning::grounding_action_server::GroundingActionServer</name>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a551599a4d5ce1c1baa0d6f6d4ab00741" kind="variable"><name>_feedback</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a79f340646871dd6132983ff45f49e4cc" kind="variable"><name>_result</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1afe7560d73f1cc7d893845c5135209892" kind="variable"><name>kb_interface</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a75abe83266fe44927302f28e025c77f9" kind="variable"><name>items</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad711e6e52d24dc1e98b0563a586d7f5d" kind="variable"><name>symbol</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad6471ec65b1b53f5844f490507911d66" kind="variable"><name>server_type</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a141b8dde28c62dd9fb432d1cdda98c59" kind="variable"><name>_action_name</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a1747825fe37ec9f38a03a3f1cc37d3ae" kind="variable"><name>_as</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a72969a0c76fc2f705071a40c1139ea78" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a6da30a58d5ce86218a5b6e3bf73f97e8" kind="function"><name>goal_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1af103a5b2d80778a528017ea82e21ad03" kind="function"><name>preempt_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1abc6767f71867142cc07dcf2e1a3e8e11" kind="function"><name>relate_skills</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1ad3946728778e3fb90fe4d5cb19514e07" kind="function"><name>new_triple_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer_1a6fc787540ec8f9af37e00c8483a62e54" kind="function"><name>grounding_end_cb</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner" kind="class"><name>franka_tut_reasoning::planner::InteractivePlanner</name>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1aee4fcac97fdd3716b02c7d47a4a4bf38" kind="variable"><name>current_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a310ac0b46b87af00ca6422b88653cee4" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a12a567da05725697bf2122144484df86" kind="function"><name>initialize</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1aef420ef8b109e0ad2417c908930f1a5e" kind="function"><name>find_first_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a6e78604689ba1260ab5073a1e14ea2ed" kind="function"><name>decide_next_move</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a9dbe7c03f4cbd7abcfea78c068ff7b96" kind="function"><name>find_next_step</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1LocationUnknown__Error" kind="class"><name>franka_tut_reasoning::errors::LocationUnknown_Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1LocationUnknown__Error_1a7307cc36ae2defbd2c807c6fbab677ff" kind="variable"><name>message</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1LocationUnknown__Error_1a3e10aaae6ccf75c615ba248c2b9bf618" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1planner_1_1Planner" kind="class"><name>franka_tut_reasoning::planner::Planner</name>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aa6a65f20b052014f5d571db55298ff4f" kind="variable"><name>__metaclass__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a1ac0bce3cb90b2aea7b9a979ecda4f47" kind="variable"><name>graph</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a6c16cc11e61e299f654113e834524a35" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ae5d955bf66b47a7fba6f3d1d8548a997" kind="function"><name>add_node</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1adadc70934fa45cade0314df2501c0f16" kind="function"><name>attribute_node_to_human</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1acb9b2ee55a917b2538fae741fe283fcb" kind="function"><name>attribute_node_to_robot</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ab7d1d5f8cda04ba8c84f7ae2e0dfc280" kind="function"><name>complete_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aca844671ec1007fe590889cee5aafa86" kind="function"><name>generator_move</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ad2ab734030696ae69b80afbef7fcd947" kind="function"><name>print_graph</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a52f7c8342545c86c7a1be22e3d940869" kind="function"><name>draw_graph</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a3be75e95aa36d4d003275d5a167717fd" kind="function"><name>initialize</name></member>
+    <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a93e68d01245e9264a5cf38844951f0ee" kind="function"><name>decide_next_move</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager" kind="class"><name>franka_tut_reasoning::ontology_manager::RdfManager</name>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af25ac0a77109135388a8be0d10a6ba5d" kind="function"><name>send_query</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ab9934a8a1686a92de36e05cee71cf19e" kind="function"><name>get_skills</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad7410da4e204e56e1ddc7bd5b9094012" kind="function"><name>get_task_steps</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a1a4bcb074e7559df3f2d923b3e211f94" kind="function"><name>get_step_info</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a9ed0faedf6263eb731f56ed9fef8bbc8" kind="function"><name>find_utterances</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af9868bd6559a04de022b4fe2b0db06d7" kind="function"><name>get_following_slot</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a3fd7b10204d8904874cc90ff85959704" kind="function"><name>get_task_from_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a129b182ab4f0e7815292315860c9f320" kind="function"><name>ground_subclass</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1aa741c167705dd09ebbca3f1d6b773bcf" kind="function"><name>relate_new_skill</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a06b49382fd1741b47e3deda8f8e383b0" kind="function"><name>get_first_task_from_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad31576bba8ff03f9935e415a415adc06" kind="function"><name>rec_extract_actions_from_task</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a24bdeb83fbb67970fa1f26682bd886bd" kind="function"><name>extract_actions_from_step</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a95854b5e3ff65c3b114023197d3a2591" kind="function"><name>extract_actions_from_task</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2cecfce49ff70470f982a3e48c9eb69b" kind="function"><name>get_action_preconditions</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2f2342175b9b7f726d485f9c35fa786a" kind="function"><name>retrieve_location</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a427acd937631ee2de047016cc1170f48" kind="function"><name>retrieve_description</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ae6fd0e384cd117939d75387c46f052fe" kind="function"><name>retrieve_width</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ac35484e3d7fdfa9110b3c79489ccf4ab" kind="function"><name>check_attribute</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1main_1_1Reasoning" kind="class"><name>franka_tut_reasoning::main::Reasoning</name>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a7e4dbcb938d770590dbd86be8c7425eb" kind="variable"><name>unknown_symbol_publisher</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a9ac4926370105e35a3eb7358672294ae" kind="variable"><name>soundhandle</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a2739c0af42fcf2834b729941cb33dfbc" kind="variable"><name>kb_interface</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a829a03a3753132a989b7419a0f7c3d9f" kind="variable"><name>planner</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a44880a0cd5db8c6e0e6e7d5f709a9d79" kind="variable"><name>action_server</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a60b521527130252c9543909059292042" kind="variable"><name>waiting_human</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a3eb5378c5cb99b4decf30080f915499b" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1aeb7357f5fc99650c5e741b5d56f1b5f7" kind="function"><name>speak</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1abe02184b00b34318ee0d11753e613f10" kind="function"><name>ending_callback</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a4a6923253ab9f0d0ed77c1f135437e41" kind="function"><name>activation_callback</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a772c90446029619fec8790bbb5645f0d" kind="function"><name>actuator_callback</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a995bfaa6a15ee3288deda2f412f6ad92" kind="function"><name>human_callback</name></member>
+    <member refid="classfranka__tut__reasoning_1_1main_1_1Reasoning_1a4291e919e397360a46fde2b5d250c6eb" kind="function"><name>callback</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error" kind="class"><name>franka_tut_reasoning::errors::RequestSemantic_Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error_1a8d54911592078c4fc76040085aa79103" kind="variable"><name>message</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error_1a851b2d630666c54c8949601b6da9bacd" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error" kind="class"><name>franka_tut_reasoning::errors::RequestSyntax_Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1a5b625b57f7d9749c7a449b2385660b38" kind="variable"><name>value</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1aa63be27295bbe2c97d0a0399fb1b9410" kind="variable"><name>message</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1a125483a8ec4e2f6a5efe2486d3d53447" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine" kind="class"><name>franka_tut_nlp::state_machine::StateMachine</name>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ab66abe098f66ee151246f0d156080297" kind="variable"><name>handlers</name></member>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a09644e0307a2d1b12bfcd779643e28ca" kind="variable"><name>currentState</name></member>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a1b38964dc77263ad77a2a067621892e6" kind="variable"><name>endStates</name></member>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ab89190532c74fe3d81e651ad8203023a" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ae5120cb7c901d9c72f0764b943134755" kind="function"><name>add_state</name></member>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a334f715ce9473eef9b2d5972ce57674a" kind="function"><name>set_state</name></member>
+    <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a1020ad9eb30509cd22147646713e9150" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1TargetUnknown__Error" kind="class"><name>franka_tut_reasoning::errors::TargetUnknown_Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1TargetUnknown__Error_1ac14a5e4835de67450016182e76c4ee0e" kind="variable"><name>value</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1TargetUnknown__Error_1aa3132a50ff004562b83d2bdaea7586f5" kind="variable"><name>message</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1TargetUnknown__Error_1aa68de2099c5823297f25190bffe26f74" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer" kind="class"><name>franka_tut_reasoning::task_server::TaskActionServer</name>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1aff945f746b251d371183d819a0c6bff0" kind="variable"><name>feedback</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a6227bd771d2316beb547399b65f8c7e5" kind="variable"><name>result</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a52575bdbfb629885b590612c21e91885" kind="variable"><name>pose</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a88fdbf7d0fafff91209bb9310b24ff01" kind="variable"><name>motion_name</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a542b10d5d0ab8e85385f3b91d2cbeb64" kind="variable"><name>gripper_command</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1ae064710554a32a2ce0a0334764b8faae" kind="variable"><name>joint_state</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1aa9cd9f5b8af3ed8f4677ebe425c11b4f" kind="variable"><name>pub_cartesian_motion</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a3378794b4befc0d04aa3d71e4906bc4f" kind="variable"><name>pub_gripper_motion</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1aaec0043d3fae48feb3f1c91bbee9294f" kind="variable"><name>pub_joint_action</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a89f394f35319039297f8839fb0c04106" kind="variable"><name>pub_motion</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1add2e2b28df7ee09cd92beac788a11cf4" kind="variable"><name>action_name</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1ad4f2f7eb5296af3c439b233b0d5d8c53" kind="variable"><name>action_server</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a28a3aca2ede81cfc5c2851c566a5246b" kind="variable"><name>map_step_arg</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a9ae24af2d5e185ce34b98b51f74b93fc" kind="variable"><name>goal</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a883f66bc706fbedd366c81865e2516a4" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1ab65be9b6f080897e34683f3f1df87af8" kind="function"><name>goal_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1aa5a6f3263c2b94c45862c256b670169a" kind="function"><name>preempt_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a06451b67df3a8afee90edc5ae1f3a32c" kind="function"><name>actuator_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1aa0b328cbda881071014d075902e39df5" kind="function"><name>sensor_feedback_cb</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a931182494bd793999f3e3deec9129844" kind="function"><name>send_new_command</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1ac7542c3c92b5956637c8705145904f61" kind="function"><name>send_motion</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a449b2de90d8a7e7cda80d1c6cf20afaa" kind="function"><name>send_cartesian_motion</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1adfa9708c06c4578e6452d17f025462e2" kind="function"><name>send_gripper_motion</name></member>
+    <member refid="classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer_1a4886de48f61de28bd8efd79437cac709" kind="function"><name>send_joint_action</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager" kind="class"><name>franka_tut_reasoning::ontology_manager::TaskSemanticManager</name>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a19d2e53958a5b452c3e65a4fab54e015" kind="variable"><name>available_tasks</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1ab3450225aba0eefe8989a74c8f37e0af" kind="variable"><name>current_context</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a09d93b4fc4de8c76e785e3831a2c6d0c" kind="variable"><name>max_width_gripper</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1acbaa705ea4bd35fcff8a8c7c431a1f84" kind="variable"><name>dictionary_preconditions</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a4e992b87f1acbde8c268662b736825ac" kind="function"><name>__init__</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a06d721d8d44cbe92a92dd12bea7483e4" kind="function"><name>check_syntax</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1af60a3a5d465f0b26822f29f72b17891c" kind="function"><name>compare_command</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1afd3be0788468c8d5a7cdfd4a4a3d5624" kind="function"><name>check_semantic</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a906ac1f2f8f545a36a00017fd33b2a49" kind="function"><name>ground_new_symbol</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a0b8f64f1d83aa10222ace0b5d7bb4e60" kind="function"><name>matching_attribute</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1aa247d7c122e189ea2bc363b66a3b5dfc" kind="function"><name>comply_to_preconditions</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1af2fbce6c0bca7a2c8cf15125a984648f" kind="function"><name>is_target_reachable</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a943458a837015c8a9d955e253d591351" kind="function"><name>is_target_graspable</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a3c39028f46350889729ca2def4b8ce44" kind="function"><name>is_gripper_operational</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a0295d948fcbd6298b47b6d219a21e4a1" kind="function"><name>is_rotation_angle_valid</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1abf043e18aedf75cae38d2e78c3ce52b9" kind="function"><name>procedural_attachment</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a494f52265b8e2314f258d01d98830a60" kind="function"><name>has_constraint</name></member>
+    <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager_1a304ab751b0a55f27cb36433f8a17268f" kind="function"><name>retrieve_actions</name></member>
+  </compound>
+  <compound refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error" kind="class"><name>franka_tut_reasoning::errors::WidthUnknown_Error</name>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1aee0fdd22b613b58a9d299a363c54c0cd" kind="variable"><name>value</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1ad02cf3ac2a223bb59f0c47891e54d9e2" kind="variable"><name>message</name></member>
+    <member refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1a54cd08faef474ba5848bea11f3598be2" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="namespacefranka__tut__msgs_1_1msg" kind="namespace"><name>franka_tut_msgs::msg</name>
+  </compound>
+  <compound refid="namespacefranka__tut__msgs_1_1srv" kind="namespace"><name>franka_tut_msgs::srv</name>
+  </compound>
+  <compound refid="namespacefranka__tut__nlp" kind="namespace"><name>franka_tut_nlp</name>
+  </compound>
+  <compound refid="namespacefranka__tut__nlp_1_1speech__recognition" kind="namespace"><name>franka_tut_nlp::speech_recognition</name>
+  </compound>
+  <compound refid="namespacefranka__tut__nlp_1_1state__machine" kind="namespace"><name>franka_tut_nlp::state_machine</name>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning" kind="namespace"><name>franka_tut_reasoning</name>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning_1_1errors" kind="namespace"><name>franka_tut_reasoning::errors</name>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning_1_1grounding__action__server" kind="namespace"><name>franka_tut_reasoning::grounding_action_server</name>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning_1_1main" kind="namespace"><name>franka_tut_reasoning::main</name>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning_1_1ontology__manager" kind="namespace"><name>franka_tut_reasoning::ontology_manager</name>
+    <member refid="ontology__manager_8py_1a0e390bf5fe559ff19df3c7ea2432cacd" kind="variable"><name>ENDPOINT</name></member>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning_1_1planner" kind="namespace"><name>franka_tut_reasoning::planner</name>
+    <member refid="planner_8py_1a627c02c3b60625a843f73d0274832751" kind="variable"><name>MAP_STEP_ARG</name></member>
+  </compound>
+  <compound refid="namespacefranka__tut__reasoning_1_1task__server" kind="namespace"><name>franka_tut_reasoning::task_server</name>
+  </compound>
+  <compound refid="speech__recognition_8py" kind="file"><name>speech_recognition.py</name>
+  </compound>
+  <compound refid="state__machine_8py" kind="file"><name>state_machine.py</name>
+  </compound>
+  <compound refid="franka__tut__reasoning_2src_2franka__tut__reasoning_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="franka__tut__nlp_2src_2franka__tut__nlp_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="errors_8py" kind="file"><name>errors.py</name>
+  </compound>
+  <compound refid="grounding__action__server_8py" kind="file"><name>grounding_action_server.py</name>
+  </compound>
+  <compound refid="main_8py" kind="file"><name>main.py</name>
+  </compound>
+  <compound refid="ontology__manager_8py" kind="file"><name>ontology_manager.py</name>
+  </compound>
+  <compound refid="planner_8py" kind="file"><name>planner.py</name>
+  </compound>
+  <compound refid="task__server_8py" kind="file"><name>task_server.py</name>
+  </compound>
+  <compound refid="dir_97bc5452a9576e7b0186ceb5c2fe44c1" kind="dir"><name>franka_tut_nlp/src/franka_tut_nlp</name>
+  </compound>
+  <compound refid="dir_7c61d35c5a3dead25b990e1f9a2386d5" kind="dir"><name>franka_tut_nlp</name>
+  </compound>
+  <compound refid="dir_370becb69b5bfcbdbbf3f5710e4c7315" kind="dir"><name>franka_tut_reasoning/src/franka_tut_reasoning</name>
+  </compound>
+  <compound refid="dir_b01ea5e8a9cc3313ffe0e0593c0049b5" kind="dir"><name>franka_tut_reasoning</name>
+  </compound>
+  <compound refid="dir_03f7c96db58073db18218e19dc56d954" kind="dir"><name>franka_tut_reasoning/src</name>
+  </compound>
+  <compound refid="dir_ad0bc1e5b390f46f0df5a652ff93324d" kind="dir"><name>franka_tut_nlp/src</name>
   </compound>
 </doxygenindex>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::planner::AutomatedPlanner</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1planner_1_1Planner" prot="public" virt="non-virtual">franka_tut_reasoning.planner.Planner</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1ac3b1017cf95ca817cf3b5cf05dcac3be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.planner.AutomatedPlanner::current_step</definition>
+        <argsstring></argsstring>
+        <name>current_step</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="90" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a4a14deb98c76fda7dce10c17de29937a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.AutomatedPlanner.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>docstring for AutomatedPlanner.</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="73" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a61d42beb2ab988b5a92fb16b48f7ed9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.AutomatedPlanner.initialize</definition>
+        <argsstring>(self, steps, constraints)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>steps</type>
+          <defname>steps</defname>
+        </param>
+        <param>
+          <type>constraints</type>
+          <defname>constraints</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="76" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="76" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a39cb35a6089afe9286995c2b2688d74b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.AutomatedPlanner.decide_next_move</definition>
+        <argsstring>(self)</argsstring>
+        <name>decide_next_move</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Decides which action to take next</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="94" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="94" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1ac4d0b7a20758fc23c3c7ea455879b6b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.AutomatedPlanner.find_next_step</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_next_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="106" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="106" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>docstring for AutomatedPlanner.</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="102">
+        <label>object</label>
+      </node>
+      <node id="101">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>franka_tut_reasoning.planner.AutomatedPlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="105">
+        <label>object</label>
+      </node>
+      <node id="104">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>franka_tut_reasoning.planner.AutomatedPlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="71" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="71" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a4a14deb98c76fda7dce10c17de29937a" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ae5d955bf66b47a7fba6f3d1d8548a997" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>add_node</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1adadc70934fa45cade0314df2501c0f16" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>attribute_node_to_human</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1acb9b2ee55a917b2538fae741fe283fcb" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>attribute_node_to_robot</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ab7d1d5f8cda04ba8c84f7ae2e0dfc280" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>complete_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1ac3b1017cf95ca817cf3b5cf05dcac3be" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>current_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a39cb35a6089afe9286995c2b2688d74b" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>decide_next_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a52f7c8342545c86c7a1be22e3d940869" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>draw_graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1ac4d0b7a20758fc23c3c7ea455879b6b0" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>find_next_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aca844671ec1007fe590889cee5aafa86" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>generator_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a1ac0bce3cb90b2aea7b9a979ecda4f47" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner_1a61d42beb2ab988b5a92fb16b48f7ed9a" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>initialize</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ad2ab734030696ae69b80afbef7fcd947" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::AutomatedPlanner</scope><name>print_graph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::errors::RequestSyntax_Error</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1errors_1_1Error" prot="public" virt="non-virtual">franka_tut_reasoning.errors.Error</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1a5b625b57f7d9749c7a449b2385660b38" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.errors.RequestSyntax_Error::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="19" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1aa63be27295bbe2c97d0a0399fb1b9410" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.errors.RequestSyntax_Error::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="20" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1a125483a8ec4e2f6a5efe2486d3d53447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.errors.RequestSyntax_Error.__init__</definition>
+        <argsstring>(self, symbol)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>symbol</type>
+          <defname>symbol</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="18" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Exception raised when the request cannot be matched to any utterance </verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>Exception</label>
+      </node>
+      <node id="170">
+        <label>franka_tut_reasoning.errors.RequestSyntax_Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>franka_tut_reasoning.errors.Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1Error"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="175">
+        <label>Exception</label>
+      </node>
+      <node id="173">
+        <label>franka_tut_reasoning.errors.RequestSyntax_Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>franka_tut_reasoning.errors.Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1Error"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="15" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1a125483a8ec4e2f6a5efe2486d3d53447" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::RequestSyntax_Error</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1Error_1a7b2da2792da7abb0417f7d3128b8811f" prot="public" virt="non-virtual" ambiguityscope="franka_tut_reasoning::errors::Error."><scope>franka_tut_reasoning::errors::RequestSyntax_Error</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1aa63be27295bbe2c97d0a0399fb1b9410" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::RequestSyntax_Error</scope><name>message</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error_1a5b625b57f7d9749c7a449b2385660b38" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::RequestSyntax_Error</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

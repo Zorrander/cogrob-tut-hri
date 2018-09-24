@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::planner::InteractivePlanner</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1planner_1_1Planner" prot="public" virt="non-virtual">franka_tut_reasoning.planner.Planner</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1aee4fcac97fdd3716b02c7d47a4a4bf38" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.planner.InteractivePlanner::current_step</definition>
+        <argsstring></argsstring>
+        <name>current_step</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="143" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a310ac0b46b87af00ca6422b88653cee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.InteractivePlanner.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="123" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a12a567da05725697bf2122144484df86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.InteractivePlanner.initialize</definition>
+        <argsstring>(self, steps, constraints)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>steps</type>
+          <defname>steps</defname>
+        </param>
+        <param>
+          <type>constraints</type>
+          <defname>constraints</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="126" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="126" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1aef420ef8b109e0ad2417c908930f1a5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.InteractivePlanner.find_first_step</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Identifies the first action required by the robot</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="147" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="147" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a6e78604689ba1260ab5073a1e14ea2ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.InteractivePlanner.decide_next_move</definition>
+        <argsstring>(self)</argsstring>
+        <name>decide_next_move</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Decides which action to take next</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="160" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="160" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a9dbe7c03f4cbd7abcfea78c068ff7b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.InteractivePlanner.find_next_step</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_next_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="184" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="184" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>docstring for InteractivePlanner.</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>object</label>
+      </node>
+      <node id="136">
+        <label>franka_tut_reasoning.planner.InteractivePlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="141">
+        <label>object</label>
+      </node>
+      <node id="139">
+        <label>franka_tut_reasoning.planner.InteractivePlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="121" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="121" bodyend="193"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a310ac0b46b87af00ca6422b88653cee4" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ae5d955bf66b47a7fba6f3d1d8548a997" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>add_node</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1adadc70934fa45cade0314df2501c0f16" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>attribute_node_to_human</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1acb9b2ee55a917b2538fae741fe283fcb" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>attribute_node_to_robot</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ab7d1d5f8cda04ba8c84f7ae2e0dfc280" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>complete_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1aee4fcac97fdd3716b02c7d47a4a4bf38" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>current_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a6e78604689ba1260ab5073a1e14ea2ed" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>decide_next_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a52f7c8342545c86c7a1be22e3d940869" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>draw_graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1aef420ef8b109e0ad2417c908930f1a5e" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>find_first_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a9dbe7c03f4cbd7abcfea78c068ff7b96" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>find_next_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aca844671ec1007fe590889cee5aafa86" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>generator_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a1ac0bce3cb90b2aea7b9a979ecda4f47" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner_1a12a567da05725697bf2122144484df86" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>initialize</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ad2ab734030696ae69b80afbef7fcd947" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::InteractivePlanner</scope><name>print_graph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

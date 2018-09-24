@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacefranka__tut__nlp_1_1state__machine" kind="namespace" language="Python">
+    <compoundname>franka_tut_nlp::state_machine</compoundname>
+    <innerclass refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine" prot="public">franka_tut_nlp::state_machine::StateMachine</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>State machine to handle requests processing.</verbatim> </para>    </detaileddescription>
+    <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

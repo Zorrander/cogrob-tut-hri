@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::errors::WidthUnknown_Error</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1errors_1_1Error" prot="public" virt="non-virtual">franka_tut_reasoning.errors.Error</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1aee0fdd22b613b58a9d299a363c54c0cd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.errors.WidthUnknown_Error::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="45" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1ad02cf3ac2a223bb59f0c47891e54d9e2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.errors.WidthUnknown_Error::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="46" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1a54cd08faef474ba5848bea11f3598be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.errors.WidthUnknown_Error.__init__</definition>
+        <argsstring>(self, symbol)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>symbol</type>
+          <defname>symbol</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="44" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Exception raised when the width of the object to grasp is not know is not known </verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="194">
+        <label>franka_tut_reasoning.errors.WidthUnknown_Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>Exception</label>
+      </node>
+      <node id="195">
+        <label>franka_tut_reasoning.errors.Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1Error"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="197">
+        <label>franka_tut_reasoning.errors.WidthUnknown_Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>Exception</label>
+      </node>
+      <node id="198">
+        <label>franka_tut_reasoning.errors.Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1Error"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="41" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="41" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1a54cd08faef474ba5848bea11f3598be2" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::WidthUnknown_Error</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1Error_1a7b2da2792da7abb0417f7d3128b8811f" prot="public" virt="non-virtual" ambiguityscope="franka_tut_reasoning::errors::Error."><scope>franka_tut_reasoning::errors::WidthUnknown_Error</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1ad02cf3ac2a223bb59f0c47891e54d9e2" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::WidthUnknown_Error</scope><name>message</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error_1aee0fdd22b613b58a9d299a363c54c0cd" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::WidthUnknown_Error</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

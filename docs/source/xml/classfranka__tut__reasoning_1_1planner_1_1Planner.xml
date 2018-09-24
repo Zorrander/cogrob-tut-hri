@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1planner_1_1Planner" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::planner::Planner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner" prot="public" virt="non-virtual">franka_tut_reasoning.planner.AutomatedPlanner</derivedcompoundref>
+    <derivedcompoundref refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner" prot="public" virt="non-virtual">franka_tut_reasoning.planner.CollaborativePlanner</derivedcompoundref>
+    <derivedcompoundref refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner" prot="public" virt="non-virtual">franka_tut_reasoning.planner.InteractivePlanner</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1aa6a65f20b052014f5d571db55298ff4f" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.planner.Planner::__metaclass__</definition>
+        <argsstring></argsstring>
+        <name>__metaclass__</name>
+        <initializer>= abc.ABCMeta</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="17" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1a1ac0bce3cb90b2aea7b9a979ecda4f47" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.planner.Planner::graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="21" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1a6c16cc11e61e299f654113e834524a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="19" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1ae5d955bf66b47a7fba6f3d1d8548a997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.add_node</definition>
+        <argsstring>(self, name, x, agent=&quot;Human&quot;)</argsstring>
+        <name>add_node</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>name</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>x</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>agent</type>
+          <defname>agent</defname>
+          <defval>&quot;Human&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds a new step</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="23" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1adadc70934fa45cade0314df2501c0f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.attribute_node_to_human</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>attribute_node_to_human</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="29" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1acb9b2ee55a917b2538fae741fe283fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.attribute_node_to_robot</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>attribute_node_to_robot</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="32" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1ab7d1d5f8cda04ba8c84f7ae2e0dfc280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.complete_step</definition>
+        <argsstring>(self, node)</argsstring>
+        <name>complete_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>node</type>
+          <defname>node</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="35" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1aca844671ec1007fe590889cee5aafa86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.generator_move</definition>
+        <argsstring>(self, moves, params)</argsstring>
+        <name>generator_move</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>moves</type>
+          <defname>moves</defname>
+        </param>
+        <param>
+          <type>params</type>
+          <defname>params</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="38" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1ad2ab734030696ae69b80afbef7fcd947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.print_graph</definition>
+        <argsstring>(self)</argsstring>
+        <name>print_graph</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="47" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1a52f7c8342545c86c7a1be22e3d940869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.draw_graph</definition>
+        <argsstring>(self)</argsstring>
+        <name>draw_graph</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="50" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1a3be75e95aa36d4d003275d5a167717fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.initialize</definition>
+        <argsstring>(self, steps, constraints)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>steps</type>
+          <defname>steps</defname>
+        </param>
+        <param>
+          <type>constraints</type>
+          <defname>constraints</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create groups of steps depending on the strategy</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="64" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1planner_1_1Planner_1a93e68d01245e9264a5cf38844951f0ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.planner.Planner.decide_next_move</definition>
+        <argsstring>(self)</argsstring>
+        <name>decide_next_move</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Decision making strategy</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="68" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>docstring for Planner.</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="151">
+        <label>franka_tut_reasoning.planner.CollaborativePlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>object</label>
+      </node>
+      <node id="152">
+        <label>franka_tut_reasoning.planner.InteractivePlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>franka_tut_reasoning.planner.AutomatedPlanner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="154">
+        <label>object</label>
+      </node>
+      <node id="153">
+        <label>franka_tut_reasoning.planner.Planner</label>
+        <link refid="classfranka__tut__reasoning_1_1planner_1_1Planner"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" line="15" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/planner.py" bodystart="15" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a6c16cc11e61e299f654113e834524a35" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aa6a65f20b052014f5d571db55298ff4f" prot="private" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>__metaclass__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ae5d955bf66b47a7fba6f3d1d8548a997" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>add_node</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1adadc70934fa45cade0314df2501c0f16" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>attribute_node_to_human</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1acb9b2ee55a917b2538fae741fe283fcb" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>attribute_node_to_robot</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ab7d1d5f8cda04ba8c84f7ae2e0dfc280" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>complete_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a93e68d01245e9264a5cf38844951f0ee" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>decide_next_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a52f7c8342545c86c7a1be22e3d940869" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>draw_graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1aca844671ec1007fe590889cee5aafa86" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>generator_move</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a1ac0bce3cb90b2aea7b9a979ecda4f47" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>graph</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1a3be75e95aa36d4d003275d5a167717fd" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>initialize</name></member>
+      <member refid="classfranka__tut__reasoning_1_1planner_1_1Planner_1ad2ab734030696ae69b80afbef7fcd947" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::planner::Planner</scope><name>print_graph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

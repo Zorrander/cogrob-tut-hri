@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::errors::RequestSemantic_Error</compoundname>
+    <basecompoundref refid="classfranka__tut__reasoning_1_1errors_1_1Error" prot="public" virt="non-virtual">franka_tut_reasoning.errors.Error</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error_1a8d54911592078c4fc76040085aa79103" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_reasoning.errors.RequestSemantic_Error::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="26" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error_1a851b2d630666c54c8949601b6da9bacd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.errors.RequestSemantic_Error.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="25" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Exception raised when the request can be matched to several utterances </verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="166">
+        <label>Exception</label>
+      </node>
+      <node id="164">
+        <label>franka_tut_reasoning.errors.RequestSemantic_Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>franka_tut_reasoning.errors.Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1Error"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>Exception</label>
+      </node>
+      <node id="167">
+        <label>franka_tut_reasoning.errors.RequestSemantic_Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>franka_tut_reasoning.errors.Error</label>
+        <link refid="classfranka__tut__reasoning_1_1errors_1_1Error"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="22" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error_1a851b2d630666c54c8949601b6da9bacd" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::RequestSemantic_Error</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error_1a8d54911592078c4fc76040085aa79103" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::errors::RequestSemantic_Error</scope><name>message</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacefranka__tut__reasoning_1_1ontology__manager" kind="namespace" language="Python">
+    <compoundname>franka_tut_reasoning::ontology_manager</compoundname>
+    <innerclass refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager" prot="public">franka_tut_reasoning::ontology_manager::RdfManager</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager" prot="public">franka_tut_reasoning::ontology_manager::TaskSemanticManager</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ontology__manager_8py_1a0e390bf5fe559ff19df3c7ea2432cacd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string franka_tut_reasoning::ontology_manager.ENDPOINT</definition>
+        <argsstring></argsstring>
+        <name>ENDPOINT</name>
+        <initializer>= &quot;http://127.0.0.1:5000/endpoint/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="20" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

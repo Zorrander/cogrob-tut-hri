@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_reasoning::ontology_manager::RdfManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager" prot="public" virt="non-virtual">franka_tut_reasoning.ontology_manager.TaskSemanticManager</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af25ac0a77109135388a8be0d10a6ba5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.send_query</definition>
+        <argsstring>(self, query)</argsstring>
+        <name>send_query</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>query</type>
+          <defname>query</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve matches to a given query.
+
+Reach the query url and use json to embbed the query itself.
+
+Parameters
+----------
+query : sparql
+The query
+
+Returns
+-------
+List[str]
+    The list of matches.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="26" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="26" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ab9934a8a1686a92de36e05cee71cf19e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_skills</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_skills</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve skills available.
+
+Returns
+-------
+List[str]
+    The list of skills.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="46" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="46" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad7410da4e204e56e1ddc7bd5b9094012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_task_steps</definition>
+        <argsstring>(self, task_name)</argsstring>
+        <name>get_task_steps</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>task_name</type>
+          <defname>task_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve skills available.
+
+Parameters
+----------
+task_name : str
+the name of a skill
+
+Returns
+-------
+List[str]
+    The list of steps for this skill.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="58" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="58" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a1a4bcb074e7559df3f2d923b3e211f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_step_info</definition>
+        <argsstring>(self, command_name)</argsstring>
+        <name>get_step_info</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>command_name</type>
+          <defname>command_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve information available for a given skill.
+
+Retrieve the skill activated by the command sent as argument, list its steps,
+and for each one of them gets all information available.
+
+Parameters
+----------
+command_name : str
+An utterance.
+
+Returns
+-------
+List[(x,y)]
+    The list of (predicate, object).
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="76" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="76" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a9ed0faedf6263eb731f56ed9fef8bbc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.find_utterances</definition>
+        <argsstring>(self, action)</argsstring>
+        <name>find_utterances</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>action</type>
+          <defname>action</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve utterances available in the knowledge base that match the command.
+
+Parameters
+----------
+action : str
+An action extracted from an user request.
+
+Returns
+-------
+List[str]
+    The list of matching utterances.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="97" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="97" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af9868bd6559a04de022b4fe2b0db06d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_following_slot</definition>
+        <argsstring>(self, slot)</argsstring>
+        <name>get_following_slot</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slot</type>
+          <defname>slot</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve the slot linked to the argument.
+
+Parameters
+----------
+slot : str
+An action extracted from an user request.
+
+Returns
+-------
+List[str]
+    The potential targets linked to this action.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="115" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="115" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a3fd7b10204d8904874cc90ff85959704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_task_from_step</definition>
+        <argsstring>(self, step)</argsstring>
+        <name>get_task_from_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>step</type>
+          <defname>step</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve the tasks that compose a step from a skill.
+
+Parameters
+----------
+step : str
+Name of the step.
+
+Returns
+-------
+List[str]
+    The tasks that are involved in this step.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="133" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="133" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a129b182ab4f0e7815292315860c9f320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.ground_subclass</definition>
+        <argsstring>(self, new_class, mother_class)</argsstring>
+        <name>ground_subclass</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>new_class</type>
+          <defname>new_class</defname>
+        </param>
+        <param>
+          <type>mother_class</type>
+          <defname>mother_class</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Activate grounding process for a new subclass.
+
+Parameters
+----------
+new_class : str
+Name of the new class to add.
+
+mother_class : str
+Name of the mother class
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="151" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="151" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1aa741c167705dd09ebbca3f1d6b773bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.relate_new_skill</definition>
+        <argsstring>(self, new_skill, related_skill)</argsstring>
+        <name>relate_new_skill</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>new_skill</type>
+          <defname>new_skill</defname>
+        </param>
+        <param>
+          <type>related_skill</type>
+          <defname>related_skill</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add new utterance as trigger for a given skill.
+
+Parameters
+----------
+new_skill : (action, target)
+Signature of the new utterance.
+related_skill : (action, target)
+Signature of the reference.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="166" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="166" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a06b49382fd1741b47e3deda8f8e383b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_first_task_from_step</definition>
+        <argsstring>(self, step)</argsstring>
+        <name>get_first_task_from_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>step</type>
+          <defname>step</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve the tasks that compose a step from a skill.
+
+Parameters
+----------
+step : str
+Name of the step.
+
+Returns
+-------
+List[str]
+    The tasks that are involved in this step.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="179" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="179" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad31576bba8ff03f9935e415a415adc06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.rec_extract_actions_from_task</definition>
+        <argsstring>(self, task)</argsstring>
+        <name>rec_extract_actions_from_task</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>task</type>
+          <defname>task</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="197" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="197" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a24bdeb83fbb67970fa1f26682bd886bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.extract_actions_from_step</definition>
+        <argsstring>(self, step)</argsstring>
+        <name>extract_actions_from_step</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>step</type>
+          <defname>step</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="208" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="208" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a95854b5e3ff65c3b114023197d3a2591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.extract_actions_from_task</definition>
+        <argsstring>(self, task)</argsstring>
+        <name>extract_actions_from_task</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>task</type>
+          <defname>task</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="213" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="213" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2cecfce49ff70470f982a3e48c9eb69b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.get_action_preconditions</definition>
+        <argsstring>(self, action)</argsstring>
+        <name>get_action_preconditions</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>action</type>
+          <defname>action</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="219" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2f2342175b9b7f726d485f9c35fa786a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.retrieve_location</definition>
+        <argsstring>(self, entity)</argsstring>
+        <name>retrieve_location</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>entity</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="225" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="225" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a427acd937631ee2de047016cc1170f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.retrieve_description</definition>
+        <argsstring>(self, entity)</argsstring>
+        <name>retrieve_description</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>entity</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="231" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="231" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ae6fd0e384cd117939d75387c46f052fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.retrieve_width</definition>
+        <argsstring>(self, entity)</argsstring>
+        <name>retrieve_width</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>entity</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="240" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="240" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ac35484e3d7fdfa9110b3c79489ccf4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_reasoning.ontology_manager.RdfManager.check_attribute</definition>
+        <argsstring>(self, attribute)</argsstring>
+        <name>check_attribute</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>attribute</type>
+          <defname>attribute</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="246" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="246" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>docstring for RdfManager.</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="157">
+        <label>franka_tut_reasoning.ontology_manager.TaskSemanticManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>franka_tut_reasoning.ontology_manager.RdfManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="158">
+        <label>franka_tut_reasoning.ontology_manager.RdfManager</label>
+        <link refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" line="23" column="1" bodyfile="franka_tut_reasoning/src/franka_tut_reasoning/ontology_manager.py" bodystart="23" bodyend="253"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ac35484e3d7fdfa9110b3c79489ccf4ab" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>check_attribute</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a24bdeb83fbb67970fa1f26682bd886bd" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>extract_actions_from_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a95854b5e3ff65c3b114023197d3a2591" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>extract_actions_from_task</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a9ed0faedf6263eb731f56ed9fef8bbc8" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>find_utterances</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2cecfce49ff70470f982a3e48c9eb69b" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_action_preconditions</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a06b49382fd1741b47e3deda8f8e383b0" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_first_task_from_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af9868bd6559a04de022b4fe2b0db06d7" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_following_slot</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ab9934a8a1686a92de36e05cee71cf19e" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_skills</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a1a4bcb074e7559df3f2d923b3e211f94" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_step_info</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a3fd7b10204d8904874cc90ff85959704" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_task_from_step</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad7410da4e204e56e1ddc7bd5b9094012" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>get_task_steps</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a129b182ab4f0e7815292315860c9f320" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>ground_subclass</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ad31576bba8ff03f9935e415a415adc06" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>rec_extract_actions_from_task</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1aa741c167705dd09ebbca3f1d6b773bcf" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>relate_new_skill</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a427acd937631ee2de047016cc1170f48" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>retrieve_description</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1a2f2342175b9b7f726d485f9c35fa786a" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>retrieve_location</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1ae6fd0e384cd117939d75387c46f052fe" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>retrieve_width</name></member>
+      <member refid="classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager_1af25ac0a77109135388a8be0d10a6ba5d" prot="public" virt="non-virtual"><scope>franka_tut_reasoning::ontology_manager::RdfManager</scope><name>send_query</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

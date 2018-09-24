@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacefranka__tut__reasoning_1_1errors" kind="namespace" language="Python">
+    <compoundname>franka_tut_reasoning::errors</compoundname>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1Error" prot="public">franka_tut_reasoning::errors::Error</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1Grasping__Error" prot="public">franka_tut_reasoning::errors::Grasping_Error</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1LocationUnknown__Error" prot="public">franka_tut_reasoning::errors::LocationUnknown_Error</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1RequestSemantic__Error" prot="public">franka_tut_reasoning::errors::RequestSemantic_Error</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1RequestSyntax__Error" prot="public">franka_tut_reasoning::errors::RequestSyntax_Error</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1TargetUnknown__Error" prot="public">franka_tut_reasoning::errors::TargetUnknown_Error</innerclass>
+    <innerclass refid="classfranka__tut__reasoning_1_1errors_1_1WidthUnknown__Error" prot="public">franka_tut_reasoning::errors::WidthUnknown_Error</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/errors.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

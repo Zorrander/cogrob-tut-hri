@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_97bc5452a9576e7b0186ceb5c2fe44c1" kind="dir">
+    <compoundname>franka_tut_nlp/src/franka_tut_nlp</compoundname>
+    <innerfile refid="franka__tut__nlp_2src_2franka__tut__nlp_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="speech__recognition_8py">speech_recognition.py</innerfile>
+    <innerfile refid="state__machine_8py">state_machine.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="franka_tut_nlp/src/franka_tut_nlp/"/>
+  </compounddef>
+</doxygen>

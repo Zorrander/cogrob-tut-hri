@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacefranka__tut__reasoning" kind="namespace" language="Python">
+    <compoundname>franka_tut_reasoning</compoundname>
+    <innernamespace refid="namespacefranka__tut__reasoning_1_1errors">franka_tut_reasoning::errors</innernamespace>
+    <innernamespace refid="namespacefranka__tut__reasoning_1_1grounding__action__server">franka_tut_reasoning::grounding_action_server</innernamespace>
+    <innernamespace refid="namespacefranka__tut__reasoning_1_1main">franka_tut_reasoning::main</innernamespace>
+    <innernamespace refid="namespacefranka__tut__reasoning_1_1ontology__manager">franka_tut_reasoning::ontology_manager</innernamespace>
+    <innernamespace refid="namespacefranka__tut__reasoning_1_1planner">franka_tut_reasoning::planner</innernamespace>
+    <innernamespace refid="namespacefranka__tut__reasoning_1_1task__server">franka_tut_reasoning::task_server</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="franka_tut_reasoning/src/franka_tut_reasoning/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

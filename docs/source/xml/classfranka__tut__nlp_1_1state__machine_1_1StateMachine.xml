@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine" kind="class" language="Python" prot="public">
+    <compoundname>franka_tut_nlp::state_machine::StateMachine</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ab66abe098f66ee151246f0d156080297" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_nlp.state_machine.StateMachine::handlers</definition>
+        <argsstring></argsstring>
+        <name>handlers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="9" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a09644e0307a2d1b12bfcd779643e28ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_nlp.state_machine.StateMachine::currentState</definition>
+        <argsstring></argsstring>
+        <name>currentState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="10" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a1b38964dc77263ad77a2a067621892e6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>franka_tut_nlp.state_machine.StateMachine::endStates</definition>
+        <argsstring></argsstring>
+        <name>endStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="11" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ab89190532c74fe3d81e651ad8203023a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_nlp.state_machine.StateMachine.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="8" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ae5120cb7c901d9c72f0764b943134755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_nlp.state_machine.StateMachine.add_state</definition>
+        <argsstring>(self, name, handler, end_state=0)</argsstring>
+        <name>add_state</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>name</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>handler</type>
+          <defname>handler</defname>
+        </param>
+        <param>
+          <type>end_state</type>
+          <defname>end_state</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="13" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a334f715ce9473eef9b2d5972ce57674a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_nlp.state_machine.StateMachine.set_state</definition>
+        <argsstring>(self, name)</argsstring>
+        <name>set_state</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>name</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="19" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a1020ad9eb30509cd22147646713e9150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def franka_tut_nlp.state_machine.StateMachine.run</definition>
+        <argsstring>(self, tokens)</argsstring>
+        <name>run</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tokens</type>
+          <defname>tokens</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="22" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" line="7" column="1" bodyfile="franka_tut_nlp/src/franka_tut_nlp/state_machine.py" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ab89190532c74fe3d81e651ad8203023a" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>__init__</name></member>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ae5120cb7c901d9c72f0764b943134755" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>add_state</name></member>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a09644e0307a2d1b12bfcd779643e28ca" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>currentState</name></member>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a1b38964dc77263ad77a2a067621892e6" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>endStates</name></member>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1ab66abe098f66ee151246f0d156080297" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>handlers</name></member>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a1020ad9eb30509cd22147646713e9150" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>run</name></member>
+      <member refid="classfranka__tut__nlp_1_1state__machine_1_1StateMachine_1a334f715ce9473eef9b2d5972ce57674a" prot="public" virt="non-virtual"><scope>franka_tut_nlp::state_machine::StateMachine</scope><name>set_state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
