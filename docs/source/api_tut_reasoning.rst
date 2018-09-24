@@ -1,5 +1,8 @@
 .. _api_tut_reasoning:
 
-.. doxygenclass:: main.Reasoning
+Franka_tut_reasoning
+====================
+
+.. doxygenclass:: Reasoning
    :project: franka_tut_reasoning
    :members:
