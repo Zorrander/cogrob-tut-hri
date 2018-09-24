@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classfranka__tut__reasoning_1_1grounding__action__server_1_1GroundingActionServer.html" title="franka_tut_reasoning.grounding\l_action_server.GroundingActionServer" alt="" coords="111,5,356,47"/>
+<area shape="rect" id="node3" href="$classfranka__tut__reasoning_1_1main_1_1Reasoning.html" title="franka_tut_reasoning.main.\lReasoning" alt="" coords="144,71,323,112"/>
+<area shape="rect" id="node4" href="$classfranka__tut__reasoning_1_1ontology__manager_1_1RdfManager.html" title="franka_tut_reasoning.ontology\l_manager.RdfManager" alt="" coords="135,136,331,177"/>
+<area shape="rect" id="node6" href="$classfranka__tut__reasoning_1_1planner_1_1Planner.html" title="franka_tut_reasoning.planner.\lPlanner" alt="" coords="137,201,330,243"/>
+<area shape="rect" id="node10" href="$classfranka__tut__reasoning_1_1task__server_1_1TaskActionServer.html" title="franka_tut_reasoning.task\l_server.TaskActionServer" alt="" coords="147,267,320,308"/>
+<area shape="rect" id="node5" href="$classfranka__tut__reasoning_1_1ontology__manager_1_1TaskSemanticManager.html" title="franka_tut_reasoning.ontology\l_manager.TaskSemanticManager" alt="" coords="404,103,621,144"/>
+<area shape="rect" id="node7" href="$classfranka__tut__reasoning_1_1planner_1_1AutomatedPlanner.html" title="franka_tut_reasoning.planner.\lAutomatedPlanner" alt="" coords="416,168,609,209"/>
+<area shape="rect" id="node8" href="$classfranka__tut__reasoning_1_1planner_1_1CollaborativePlanner.html" title="franka_tut_reasoning.planner.\lCollaborativePlanner" alt="" coords="416,233,609,275"/>
+<area shape="rect" id="node9" href="$classfranka__tut__reasoning_1_1planner_1_1InteractivePlanner.html" title="franka_tut_reasoning.planner.\lInteractivePlanner" alt="" coords="416,299,609,340"/>
+</map>
