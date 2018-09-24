@@ -13,14 +13,3 @@ The project is composed of :
  * A knowledge base server storing information about the environment and different skills that can performed by a robot. It also provides an interface to teach new knowledge.
 
  * A reasoning system to be deployed on a robot allowing for reasoning and collaborative task planning. For experiments we use the `Panda arm <https://www.franka.de/>`_ from Frakna Emika.
-
-.. toctree::
-   :maxdepth: 4
-   :caption: Contents:
-
-   overview
-   installation
-   documentation
-   API
-   ontologies
-   publications
