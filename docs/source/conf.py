@@ -20,13 +20,10 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/doc'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src/franka_tut_reasoning'))
 sys.path.insert(0, os.path.abspath('../../'))
 
 # -- General configuration ------------------------------------------------
-
+'''
 def run_apidoc(_):
     from sphinx.apidoc import main
     cur_dir = os.path.abspath(os.path.dirname(__file__))
@@ -35,7 +32,7 @@ def run_apidoc(_):
 
 def setup(app):
 	app.connect('builder-inited', run_apidoc)
-
+'''
 # If your documentation needs a minimal Sphinx version, state it here.
 #
 needs_sphinx = '1.0'
