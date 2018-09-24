@@ -3,5 +3,7 @@
 Planners
 ========
 
-.. automodule:: planner.Planner
+.. automodule:: franka_tut_reasoning.ontology_manager
     :members:
+    :undoc-members:
+    :show-inheritance:
