@@ -3,6 +3,6 @@
 Franka_tut_reasoning
 ====================
 
-.. doxygenclass:: Reasoning
+.. doxygenclass:: franka_tut_reasoning.planner.InteractivePlanner
    :project: franka_tut
    :members:
