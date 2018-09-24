@@ -3,11 +3,8 @@
 Planners
 ========
 
-    .. automodule:: franka_tut_reasoning.planner
-      :members:
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
 
-    .. automodule:: franka_tut_reasoning.main
-        :members:
-
-    .. autoclass:: franka_tut_reasoning.planner.Planner
-        :members:
+   franka_tut_reasoning
