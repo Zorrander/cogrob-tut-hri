@@ -26,5 +26,5 @@ The project is composed of :
    publications
 
 
-.. automodule:: franka_tut_reasoning.planner.Planner
+.. automodule:: franka_tut_reasoning.planner
     :members:
