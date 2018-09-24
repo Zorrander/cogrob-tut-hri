@@ -92,9 +92,6 @@ todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
-
-breathe_projects = { "franka_tut": "./xml/" }
-breathe_default_project = "franka_tut"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
