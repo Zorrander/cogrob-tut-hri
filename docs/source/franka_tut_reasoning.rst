@@ -4,18 +4,18 @@ franka\_tut\_reasoning package
 Submodules
 ----------
 
-franka\_tut\_reasoning\.errors module
--------------------------------------
-
-.. automodule:: franka_tut_reasoning.errors
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
 franka\_tut\_reasoning\.grounding\_action\_server module
 --------------------------------------------------------
 
 .. automodule:: franka_tut_reasoning.grounding_action_server
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+franka\_tut\_reasoning\.errors module
+-------------------------------------
+
+.. automodule:: franka_tut_reasoning.errors
     :members:
     :undoc-members:
     :show-inheritance:
