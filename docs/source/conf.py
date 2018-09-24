@@ -20,7 +20,9 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/doc'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/franka_tut_reasoning/src/franka_tut_reasoning'))
 
 # -- General configuration ------------------------------------------------
 
