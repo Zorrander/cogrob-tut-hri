@@ -4,5 +4,5 @@ Franka_tut_reasoning
 ====================
 
 .. doxygenclass:: Reasoning
-   :project: franka_tut_reasoning
+   :project: franka_tut
    :members:
