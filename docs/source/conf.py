@@ -19,7 +19,10 @@
 
 import os
 import sys
-#sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src/franka_tut_reasoning'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/doc'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src/franka_tut_reasoning'))
+sys.path.insert(0, os.path.abspath('../../'))
 
 # -- General configuration ------------------------------------------------
 
@@ -30,6 +33,7 @@ def run_apidoc(_):
     for module in modules:
         cur_dir = os.path.abspath(os.path.dirname(__file__))
         output_path = os.path.join(cur_dir, module, 'doc')
+        print output_path
         main(['-e', '-o', cur_dir, module, '--force'])
 
 def setup(app):
