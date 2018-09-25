@@ -1,3 +1,5 @@
+.. _rqt_franka:
+
 rqt\_franka package
 ===================
 

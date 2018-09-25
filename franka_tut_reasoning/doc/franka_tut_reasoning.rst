@@ -1,3 +1,5 @@
+.. _franka_tut_reasoning:
+
 franka\_tut\_reasoning package
 ==============================
 

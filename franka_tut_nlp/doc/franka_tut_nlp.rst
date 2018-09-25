@@ -1,3 +1,5 @@
+.. _franka_tut_nlp:
+
 franka\_tut\_nlp package
 ========================
 

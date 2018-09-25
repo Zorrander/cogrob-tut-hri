@@ -1,3 +1,5 @@
+.. _franka_tut_actuator_control:
+
 franka\_tut\_actuator\_control package
 ======================================
 
