@@ -3,6 +3,7 @@ Overview
 
 .. figure:: _static/system2.png
     :align: center
+    :scale: 50 %
     :figclass: align-center
 
     General organization of the collaborative platform. Skill description occurs off-line and independently of the robot used. Operative knowledge is then demonstrated on-line. Finally the skills can be activated by natural language commands or through the GUI.
@@ -13,7 +14,7 @@ The knowledge base server
 
 .. figure:: _static/web_interface.png
     :align: center
-    :scale: 50 %
+    :scale: 75 %
     :figclass: align-center
 
     Off-line web app allowing to describe new skills to the robot. The first step consists in naming the skill. The second step defines which command could activate it. Finally the different physical abilities involved in performing the skill can be specified. Our poll of predefined physical abilities is for now composed of picking, placing, and pouring.
@@ -33,7 +34,7 @@ Solving amgiguities
 
 .. figure:: _static/bulle.png
     :align: center
-    :scale: 50 %
+    :scale: 25 %
     :figclass: align-center
 
     Grounding of a new symbol (spaghetti) in the knowledge base using human-robot interaction through natural language.
