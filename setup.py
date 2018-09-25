@@ -1,4 +1,3 @@
-
 #! /usr/bin/env python
 
 descr = "Teaching semantics and skills for human robot collaboration"

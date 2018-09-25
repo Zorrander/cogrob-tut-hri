@@ -20,23 +20,12 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../../franka_tut_actuator_control/'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_actuator_control/src'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_actuator_control/franka_tut_reasoning/src/franka_tut_actuator_control'))
 
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/franka_tut_reasoning/src/franka_tut_reasoning'))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.abspath(__file__), '..', '..', 'franka_tut_nlp', 'src', 'franka_tut_nlp')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.abspath(__file__), '..', '..', 'franka_tut_reasoning', 'src', 'franka_tut_reasoning')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.abspath(__file__), '..', '..', 'franka_tut_actuator_control', 'src', 'franka_tut_actuator_control')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.abspath(__file__), '..', '..', 'rqt_franka', 'src', 'rqt_franka')))
 
-sys.path.insert(0, os.path.abspath('../../franka_tut_nlp/'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_nlp/src'))
-sys.path.insert(0, os.path.abspath('../../franka_tut_nlp/franka_tut_reasoning/src/franka_tut_nlp'))
-
-sys.path.insert(0, os.path.abspath('../../rqt_franka/'))
-sys.path.insert(0, os.path.abspath('../../rqt_franka/src'))
-sys.path.insert(0, os.path.abspath('../../rqt_franka/franka_tut_reasoning/src/rqt_franka'))
-
-sys.path.append(os.path.abspath("")[:-4])
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.

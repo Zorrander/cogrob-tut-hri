@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 """Reasoning module.
 
 This module is the core of the system. It interacts with the knowledge base
