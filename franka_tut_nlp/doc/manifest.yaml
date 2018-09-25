@@ -1,0 +1,15 @@
+actions: []
+authors: Cognitive Robotics TUT
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rospy
+description: The franka_tut_nlp package
+license: BSD
+maintainers: Alexandre Angleraud <alexandre.angleraud@tut.fi>
+msgs: []
+package_type: package
+repo_url: https://github.com/Zorrander/franka_tut_nlp
+srvs: []
+url: http://human-robot-interactive-learning.readthedocs.io

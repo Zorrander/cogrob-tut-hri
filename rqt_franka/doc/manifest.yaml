@@ -1,0 +1,17 @@
+actions: []
+authors: Cognitive Robotics TUT
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- rqt_gui
+- rqt_gui_py
+- rospy
+description: Graphical user interface for the Panda platform
+license: BSD
+maintainers: Alexandre Angleraud <alexandre.angleraud@tut.fi>
+msgs: []
+package_type: package
+repo_url: https://github.com/Zorrander/rqt_franka
+srvs: []
+url: http://human-robot-interactive-learning.readthedocs.io

@@ -1,0 +1,295 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>rqt_franka package &#8212; rqt_franka 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="rqt-franka-package">
+<h1>rqt_franka package<a class="headerlink" href="#rqt-franka-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-rqt_franka.button">
+<span id="rqt-franka-button-module"></span><h2>rqt_franka.button module<a class="headerlink" href="#module-rqt_franka.button" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="rqt_franka.button.Button">
+<em class="property">class </em><code class="descclassname">rqt_franka.button.</code><code class="descname">Button</code><span class="sig-paren">(</span><em>text</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.button.Button" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">PyQt5.QtWidgets.QWidget</span></code></p>
+<dl class="method">
+<dt id="rqt_franka.button.Button.get_index">
+<code class="descname">get_index</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.button.Button.get_index" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rqt_franka.button.SkillButton">
+<em class="property">class </em><code class="descclassname">rqt_franka.button.</code><code class="descname">SkillButton</code><span class="sig-paren">(</span><em>text</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.button.SkillButton" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rqt_franka.button.Button" title="rqt_franka.button.Button"><code class="xref py py-class docutils literal"><span class="pre">rqt_franka.button.Button</span></code></a></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-rqt_franka.dialogs">
+<span id="rqt-franka-dialogs-module"></span><h2>rqt_franka.dialogs module<a class="headerlink" href="#module-rqt_franka.dialogs" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="rqt_franka.dialogs.ConfirmationDialog">
+<em class="property">class </em><code class="descclassname">rqt_franka.dialogs.</code><code class="descname">ConfirmationDialog</code><a class="headerlink" href="#rqt_franka.dialogs.ConfirmationDialog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rqt_franka.dialogs.Dialog" title="rqt_franka.dialogs.Dialog"><code class="xref py py-class docutils literal"><span class="pre">rqt_franka.dialogs.Dialog</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="rqt_franka.dialogs.Dialog">
+<em class="property">class </em><code class="descclassname">rqt_franka.dialogs.</code><code class="descname">Dialog</code><a class="headerlink" href="#rqt_franka.dialogs.Dialog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<dl class="method">
+<dt id="rqt_franka.dialogs.Dialog.accept">
+<code class="descname">accept</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.dialogs.Dialog.accept" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.dialogs.Dialog.rejected">
+<code class="descname">rejected</code><span class="sig-paren">(</span><em>fun=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.dialogs.Dialog.rejected" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.dialogs.Dialog.show">
+<code class="descname">show</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.dialogs.Dialog.show" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="rqt_franka.dialogs.InfoDialog">
+<em class="property">class </em><code class="descclassname">rqt_franka.dialogs.</code><code class="descname">InfoDialog</code><span class="sig-paren">(</span><em>message</em>, <em>accept_txt</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.dialogs.InfoDialog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#rqt_franka.dialogs.Dialog" title="rqt_franka.dialogs.Dialog"><code class="xref py py-class docutils literal"><span class="pre">rqt_franka.dialogs.Dialog</span></code></a></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-rqt_franka.interface">
+<span id="rqt-franka-interface-module"></span><h2>rqt_franka.interface module<a class="headerlink" href="#module-rqt_franka.interface" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="rqt_franka.interface.Interface">
+<em class="property">class </em><code class="descclassname">rqt_franka.interface.</code><code class="descname">Interface</code><span class="sig-paren">(</span><em>context</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.interface.Interface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">qt_gui.plugin.Plugin</span></code></p>
+<dl class="staticmethod">
+<dt id="rqt_franka.interface.Interface.add_arguments">
+<em class="property">static </em><code class="descname">add_arguments</code><span class="sig-paren">(</span><em>parser</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.interface.Interface.add_arguments" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.interface.Interface.restore_settings">
+<code class="descname">restore_settings</code><span class="sig-paren">(</span><em>plugin_settings</em>, <em>instance_settings</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.interface.Interface.restore_settings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.interface.Interface.save_settings">
+<code class="descname">save_settings</code><span class="sig-paren">(</span><em>plugin_settings</em>, <em>instance_settings</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.interface.Interface.save_settings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.interface.Interface.shutdown_plugin">
+<code class="descname">shutdown_plugin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.interface.Interface.shutdown_plugin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-rqt_franka.main_window">
+<span id="rqt-franka-main-window-module"></span><h2>rqt_franka.main_window module<a class="headerlink" href="#module-rqt_franka.main_window" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="rqt_franka.main_window.MainWindow">
+<em class="property">class </em><code class="descclassname">rqt_franka.main_window.</code><code class="descname">MainWindow</code><span class="sig-paren">(</span><em>context</em>, <em>pub</em>, <em>human_pub</em>, <em>pub_processed_inputs</em>, <em>record_pub</em>, <em>pub_end_motion</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">PyQt5.QtWidgets.QMainWindow</span></code></p>
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.add_skill">
+<code class="descname">add_skill</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.add_skill" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.handle_action_clicked">
+<code class="descname">handle_action_clicked</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.handle_action_clicked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.handle_done_clicked">
+<code class="descname">handle_done_clicked</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.handle_done_clicked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.handle_execute_clicked">
+<code class="descname">handle_execute_clicked</code><span class="sig-paren">(</span><em>action</em>, <em>target</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.handle_execute_clicked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.handle_send_command_clicked">
+<code class="descname">handle_send_command_clicked</code><span class="sig-paren">(</span><em>btn</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.handle_send_command_clicked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.handle_skill_clicked">
+<code class="descname">handle_skill_clicked</code><span class="sig-paren">(</span><em>skill</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.handle_skill_clicked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.handle_teach_clicked">
+<code class="descname">handle_teach_clicked</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.handle_teach_clicked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.load_steps">
+<code class="descname">load_steps</code><span class="sig-paren">(</span><em>skill</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.load_steps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.stop_recording">
+<code class="descname">stop_recording</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.stop_recording" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="rqt_franka.main_window.MainWindow.toogle_teach_button">
+<code class="descname">toogle_teach_button</code><span class="sig-paren">(</span><em>item</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.main_window.MainWindow.toogle_teach_button" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-rqt_franka.qt_helper">
+<span id="rqt-franka-qt-helper-module"></span><h2>rqt_franka.qt_helper module<a class="headerlink" href="#module-rqt_franka.qt_helper" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="rqt_franka.qt_helper.Item">
+<em class="property">class </em><code class="descclassname">rqt_franka.qt_helper.</code><code class="descname">Item</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.Item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">PyQt5.QtGui.QStandardItem</span></code></p>
+<dl class="method">
+<dt id="rqt_franka.qt_helper.Item.done">
+<code class="descname">done</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.Item.done" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.qt_helper.edit_title">
+<code class="descclassname">rqt_franka.qt_helper.</code><code class="descname">edit_title</code><span class="sig-paren">(</span><em>obj</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.edit_title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.qt_helper.init_model">
+<code class="descclassname">rqt_franka.qt_helper.</code><code class="descname">init_model</code><span class="sig-paren">(</span><em>title</em>, <em>view</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.init_model" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.qt_helper.is_checked">
+<code class="descclassname">rqt_franka.qt_helper.</code><code class="descname">is_checked</code><span class="sig-paren">(</span><em>item</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.is_checked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.qt_helper.load_elements">
+<code class="descclassname">rqt_franka.qt_helper.</code><code class="descname">load_elements</code><span class="sig-paren">(</span><em>model</em>, <em>elements</em>, <em>checkable=False</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.load_elements" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.qt_helper.load_model">
+<code class="descclassname">rqt_franka.qt_helper.</code><code class="descname">load_model</code><span class="sig-paren">(</span><em>model</em>, <em>view</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.qt_helper.load_model" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-rqt_franka.rospy_helper">
+<span id="rqt-franka-rospy-helper-module"></span><h2>rqt_franka.rospy_helper module<a class="headerlink" href="#module-rqt_franka.rospy_helper" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="rqt_franka.rospy_helper.Timer">
+<em class="property">class </em><code class="descclassname">rqt_franka.rospy_helper.</code><code class="descname">Timer</code><span class="sig-paren">(</span><em>frequency</em>, <em>callback</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.rospy_helper.Timer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">rospy.timer.Timer</span></code></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.rospy_helper.create_instruction_msg">
+<code class="descclassname">rqt_franka.rospy_helper.</code><code class="descname">create_instruction_msg</code><span class="sig-paren">(</span><em>action</em>, <em>target</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.rospy_helper.create_instruction_msg" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="rqt_franka.rospy_helper.retrieve_tasks_client">
+<code class="descclassname">rqt_franka.rospy_helper.</code><code class="descname">retrieve_tasks_client</code><span class="sig-paren">(</span><em>label</em><span class="sig-paren">)</span><a class="headerlink" href="#rqt_franka.rospy_helper.retrieve_tasks_client" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-rqt_franka">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-rqt_franka" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Alexandre Angleraud.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/rqt_franka.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

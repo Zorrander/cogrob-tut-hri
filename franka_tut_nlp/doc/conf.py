@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# franka_tut_reasoning documentation build configuration file, created by
-# sphinx-quickstart on Mon Sep 24 10:36:26 2018.
+# franka_tut_nlp documentation build configuration file, created by
+# sphinx-quickstart on Tue Sep 25 07:28:14 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -18,9 +18,11 @@
 #
 import os
 import sys
+
 sys.path.insert(0, os.path.abspath('../'))
 sys.path.insert(0, os.path.abspath('../src'))
-sys.path.insert(0, os.path.abspath('../franka_tut_reasoning'))
+sys.path.insert(0, os.path.abspath('../franka_tut_nlp'))
+
 
 # -- General configuration ------------------------------------------------
 
@@ -35,8 +37,7 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax']
+    'sphinx.ext.coverage']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['.templates']
@@ -51,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'franka_tut_reasoning'
+project = u'franka_tut_nlp'
 copyright = u'2018, Alexandre Angleraud'
 author = u'Alexandre Angleraud'
 
@@ -117,7 +118,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'franka_tut_reasoningdoc'
+htmlhelp_basename = 'franka_tut_nlpdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -144,7 +145,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'franka_tut_reasoning.tex', u'franka\\_tut\\_reasoning Documentation',
+    (master_doc, 'franka_tut_nlp.tex', u'franka\\_tut\\_nlp Documentation',
      u'Alexandre Angleraud', 'manual'),
 ]
 
@@ -154,7 +155,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'franka_tut_reasoning', u'franka_tut_reasoning Documentation',
+    (master_doc, 'franka_tut_nlp', u'franka_tut_nlp Documentation',
      [author], 1)
 ]
 
@@ -165,8 +166,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'franka_tut_reasoning', u'franka_tut_reasoning Documentation',
-     author, 'franka_tut_reasoning', 'One line description of project.',
+    (master_doc, 'franka_tut_nlp', u'franka_tut_nlp Documentation',
+     author, 'franka_tut_nlp', 'One line description of project.',
      'Miscellaneous'),
 ]
 
