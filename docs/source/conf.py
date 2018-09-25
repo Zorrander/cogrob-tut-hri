@@ -20,9 +20,21 @@
 import os
 import sys
 
+sys.path.insert(0, os.path.abspath('../../franka_tut_actuator_control/'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_actuator_control/src'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_actuator_control/franka_tut_reasoning/src/franka_tut_actuator_control'))
+
 sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/'))
 sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/src'))
 sys.path.insert(0, os.path.abspath('../../franka_tut_reasoning/franka_tut_reasoning/src/franka_tut_reasoning'))
+
+sys.path.insert(0, os.path.abspath('../../franka_tut_nlp/'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_nlp/src'))
+sys.path.insert(0, os.path.abspath('../../franka_tut_nlp/franka_tut_reasoning/src/franka_tut_nlp'))
+
+sys.path.insert(0, os.path.abspath('../../rqt_franka/'))
+sys.path.insert(0, os.path.abspath('../../rqt_franka/src'))
+sys.path.insert(0, os.path.abspath('../../rqt_franka/franka_tut_reasoning/src/rqt_franka'))
 
 # -- General configuration ------------------------------------------------
 
