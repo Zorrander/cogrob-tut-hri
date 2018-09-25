@@ -6,10 +6,11 @@ API documention
    The API documention of the following packages has been generated automatically.
 
 
-- :doc:`franka_tut_nlp <../../franka_tut_nlp/doc/franka_tut_nlp.rst>`
+.. API Documentation
+.. toctree::
+  :maxdepth: 2
 
-- :doc:`franka_tut_reasoning <../../franka_tut_reasoning/doc/franka_tut_reasoning.rst>`
-
-- :doc:`franka_tut_actuator_control <../../franka_tut_actuator_control/doc/franka_tut_actuator_control.rst>`
-
-- :doc:`rqt_franka <../../rqt_franka/doc/rqt_franka.rst>`
+  api/franka_tut_nlp
+  api/franka_tut_reasoning
+  api/franka_tut_actuator_control
+  api/rqt_franka

@@ -36,6 +36,7 @@ sys.path.insert(0, os.path.abspath('../../rqt_franka/'))
 sys.path.insert(0, os.path.abspath('../../rqt_franka/src'))
 sys.path.insert(0, os.path.abspath('../../rqt_franka/franka_tut_reasoning/src/rqt_franka'))
 
+sys.path.append(os.path.abspath("")[:-4])
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
