@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 """Errors module.
 
 Are defined here the errors for the reasoning module

@@ -1,7 +1,3 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
 """Knowledge base module.
 
 Are defined here the different requests to the knowledge.

@@ -10,4 +10,5 @@ API documention
       :maxdepth: 4
       :caption: Contents:
 
-      franka_tut_reasoning
+
+   franka_tut_reasoning

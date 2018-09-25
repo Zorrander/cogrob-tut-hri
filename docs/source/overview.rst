@@ -13,6 +13,7 @@ The knowledge base server
 
 .. figure:: _static/web_interface.png
     :align: center
+    :scale: 50 %
     :figclass: align-center
 
     Off-line web app allowing to describe new skills to the robot. The first step consists in naming the skill. The second step defines which command could activate it. Finally the different physical abilities involved in performing the skill can be specified. Our poll of predefined physical abilities is for now composed of picking, placing, and pouring.
@@ -22,6 +23,7 @@ The reasonning system
 
 .. figure:: _static/execution_architecture.png
     :align: center
+    :scale: 50 %
     :figclass: align-center
 
     Our 3 layers approach allowing the robot to sense, think and act. The first layer listens for audio input from the environment. The second layer reasons about available skills and establish action plans. Finally the action layer handles the physical abilities implementations
@@ -31,6 +33,7 @@ Solving amgiguities
 
 .. figure:: _static/bulle.png
     :align: center
+    :scale: 50 %
     :figclass: align-center
 
     Grounding of a new symbol (spaghetti) in the knowledge base using human-robot interaction through natural language.
@@ -52,6 +55,7 @@ Collaborative task planning
 
 .. figure:: _static/plan1.png
     :align: center
+    :scale: 50 %
     :figclass: align-center
 
     Plan made by the robot. In red is what will be performed by the robot and in blue what the human.

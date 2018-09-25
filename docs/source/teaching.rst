@@ -24,4 +24,6 @@ defined.
 Subdivide the skill into steps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To enable collaboration between a human and the robot
+To enable collaboration between a human and the robot the robot needs to have a global understanding of the task and
+how to share it with another agent. To allow this, the user can split the skill into several logical steps. Each step can be composed
+of one or more tasks.
